@@ -1,0 +1,4226 @@
+[
+  {
+    "id": "150",
+    "Name": "Attractions",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "151",
+    "Name": "Amusement and Theme Parks",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Amusement and Theme Parks"
+  },
+  {
+    "id": "179",
+    "Name": "Bars & Restaurants",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Bars & Restaurants"
+  },
+  {
+    "id": "181",
+    "Name": "Casinos & Gambling",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Casinos & Gambling"
+  },
+  {
+    "id": "153",
+    "Name": "Historic Site and Landmark Tours",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Historic Site and Landmark Tours"
+  },
+  {
+    "id": "154",
+    "Name": "Malls & Shopping Centers",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Malls & Shopping Centers"
+  },
+  {
+    "id": "155",
+    "Name": "Museums & Galleries",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Museums & Galleries"
+  },
+  {
+    "id": "158",
+    "Name": "Nightclubs",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Nightclubs"
+  },
+  {
+    "id": "159",
+    "Name": "Outdoor Activities",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Outdoor Activities"
+  },
+  {
+    "id": "160",
+    "Name": "Parks & Nature",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Parks & Nature"
+  },
+  {
+    "id": "177",
+    "Name": "Theater Venues",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Theater Venues"
+  },
+  {
+    "id": "178",
+    "Name": "Zoos & Aquariums",
+    "Taxonomy Tier 1": "Attractions",
+    "Taxonomy Tier 2": "Zoos & Aquariums"
+  },
+  {
+    "id": "1",
+    "Name": "Automotive",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "2",
+    "Name": "Auto Body Styles",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "3",
+    "Name": "Commercial Trucks",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "8",
+    "Name": "Convertible",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "9",
+    "Name": "Coupe",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "10",
+    "Name": "Crossover",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "11",
+    "Name": "Hatchback",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "12",
+    "Name": "Microcar",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "13",
+    "Name": "Minivan",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "14",
+    "Name": "Off-Road Vehicles",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "15",
+    "Name": "Pickup Trucks",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "4",
+    "Name": "Sedan",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "5",
+    "Name": "Station Wagon",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "6",
+    "Name": "SUV",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "7",
+    "Name": "Van",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Body Styles"
+  },
+  {
+    "id": "30",
+    "Name": "Auto Buying and Selling",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Buying and Selling"
+  },
+  {
+    "id": "31",
+    "Name": "Auto Insurance",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Insurance"
+  },
+  {
+    "id": "32",
+    "Name": "Auto Parts",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Parts"
+  },
+  {
+    "id": "33",
+    "Name": "Auto Recalls",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Recalls"
+  },
+  {
+    "id": "41",
+    "Name": "Auto Rentals",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Rentals"
+  },
+  {
+    "id": "34",
+    "Name": "Auto Repair",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Repair"
+  },
+  {
+    "id": "35",
+    "Name": "Auto Safety",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Safety"
+  },
+  {
+    "id": "36",
+    "Name": "Auto Shows",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Shows"
+  },
+  {
+    "id": "37",
+    "Name": "Auto Technology",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Technology"
+  },
+  {
+    "id": "38",
+    "Name": "Auto Infotainment Technologies",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Technology"
+  },
+  {
+    "id": "39",
+    "Name": "Auto Navigation Systems",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Technology"
+  },
+  {
+    "id": "40",
+    "Name": "Auto Safety Technologies",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Technology"
+  },
+  {
+    "id": "16",
+    "Name": "Auto Type",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "17",
+    "Name": "Budget Cars",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "18",
+    "Name": "Certified Pre-Owned Cars",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "19",
+    "Name": "Classic Cars",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "20",
+    "Name": "Concept Cars",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "21",
+    "Name": "Driverless Cars",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "22",
+    "Name": "Green Vehicles",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "23",
+    "Name": "Luxury Cars",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "24",
+    "Name": "Performance Cars",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Auto Type"
+  },
+  {
+    "id": "25",
+    "Name": "Car Culture",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Car Culture"
+  },
+  {
+    "id": "26",
+    "Name": "Dash Cam Videos",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Dash Cam Videos"
+  },
+  {
+    "id": "27",
+    "Name": "Motorcycles",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Motorcycles"
+  },
+  {
+    "id": "28",
+    "Name": "Road-Side Assistance",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Road-Side Assistance"
+  },
+  {
+    "id": "29",
+    "Name": "Scooters",
+    "Taxonomy Tier 1": "Automotive",
+    "Taxonomy Tier 2": "Scooters"
+  },
+  {
+    "id": "42",
+    "Name": "Books and Literature",
+    "Taxonomy Tier 1": "Books and Literature",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "43",
+    "Name": "Art and Photography",
+    "Taxonomy Tier 1": "Books and Literature",
+    "Taxonomy Tier 2": "Art and Photography"
+  },
+  {
+    "id": "46",
+    "Name": "Comics and Graphic Novels",
+    "Taxonomy Tier 1": "Books and Literature",
+    "Taxonomy Tier 2": "Comics and Graphic Novels"
+  },
+  {
+    "id": "48",
+    "Name": "Fiction",
+    "Taxonomy Tier 1": "Books and Literature",
+    "Taxonomy Tier 2": "Fiction"
+  },
+  {
+    "id": "49",
+    "Name": "Poetry",
+    "Taxonomy Tier 1": "Books and Literature",
+    "Taxonomy Tier 2": "Poetry"
+  },
+  {
+    "id": "52",
+    "Name": "Business and Finance",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "53",
+    "Name": "Business",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "54",
+    "Name": "Business Accounting & Finance",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "62",
+    "Name": "Business Administration",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "63",
+    "Name": "Business Banking & Finance",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "64",
+    "Name": "Angel Investment",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "65",
+    "Name": "Bankruptcy",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "66",
+    "Name": "Business Loans",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "67",
+    "Name": "Debt Factoring & Invoice Discounting",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "68",
+    "Name": "Mergers and Acquisitions",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "69",
+    "Name": "Private Equity",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "70",
+    "Name": "Sale & Lease Back",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "71",
+    "Name": "Venture Capital",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "72",
+    "Name": "Business I.T.",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "73",
+    "Name": "Business Operations",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "79",
+    "Name": "Business Utilities",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "74",
+    "Name": "Consumer Issues",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "75",
+    "Name": "Recalls",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "76",
+    "Name": "Executive Leadership & Management",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "77",
+    "Name": "Government Business",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "78",
+    "Name": "Green Solutions",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "55",
+    "Name": "Human Resources",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "56",
+    "Name": "Large Business",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "57",
+    "Name": "Logistics",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "58",
+    "Name": "Marketing and Advertising",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "59",
+    "Name": "Sales",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "60",
+    "Name": "Small and Medium-sized Business",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "61",
+    "Name": "Startups",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Business"
+  },
+  {
+    "id": "80",
+    "Name": "Economy",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "81",
+    "Name": "Commodities",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "82",
+    "Name": "Currencies",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "83",
+    "Name": "Financial Crisis",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "84",
+    "Name": "Financial Reform",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "85",
+    "Name": "Financial Regulation",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "86",
+    "Name": "Gasoline Prices",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "87",
+    "Name": "Housing Market",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "88",
+    "Name": "Interest Rates",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "89",
+    "Name": "Job Market",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Economy"
+  },
+  {
+    "id": "90",
+    "Name": "Industries",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "91",
+    "Name": "Advertising Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "102",
+    "Name": "Agriculture",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "113",
+    "Name": "Apparel Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "117",
+    "Name": "Automotive Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "118",
+    "Name": "Aviation Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "119",
+    "Name": "Biotech and Biomedical Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "120",
+    "Name": "Civil Engineering Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "121",
+    "Name": "Construction Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "122",
+    "Name": "Defense Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "92",
+    "Name": "Education industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "93",
+    "Name": "Entertainment Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "94",
+    "Name": "Environmental Services Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "95",
+    "Name": "Financial Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "96",
+    "Name": "Food Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "97",
+    "Name": "Healthcare Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "98",
+    "Name": "Hospitality Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "99",
+    "Name": "Information Services Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "100",
+    "Name": "Legal Services Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "101",
+    "Name": "Logistics and Transportation Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "103",
+    "Name": "Management Consulting Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "104",
+    "Name": "Manufacturing Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "105",
+    "Name": "Mechanical and Industrial Engineering Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "106",
+    "Name": "Media Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "107",
+    "Name": "Metals Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "108",
+    "Name": "Non-Profit Organizations",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "109",
+    "Name": "Pharmaceutical Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "110",
+    "Name": "Power and Energy Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "111",
+    "Name": "Publishing Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "112",
+    "Name": "Real Estate Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "114",
+    "Name": "Retail Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "115",
+    "Name": "Technology Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "116",
+    "Name": "Telecommunications Industry",
+    "Taxonomy Tier 1": "Business and Finance",
+    "Taxonomy Tier 2": "Industries"
+  },
+  {
+    "id": "123",
+    "Name": "Careers",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "124",
+    "Name": "Apprenticeships",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": "Apprenticeships"
+  },
+  {
+    "id": "125",
+    "Name": "Career Advice",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": "Career Advice"
+  },
+  {
+    "id": "126",
+    "Name": "Career Planning",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": "Career Planning"
+  },
+  {
+    "id": "127",
+    "Name": "Job Search",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": "Job Search"
+  },
+  {
+    "id": "128",
+    "Name": "Job Fairs",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": "Job Search"
+  },
+  {
+    "id": "129",
+    "Name": "Resume Writing and Advice",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": "Job Search"
+  },
+  {
+    "id": "130",
+    "Name": "Remote Working",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": "Remote Working"
+  },
+  {
+    "id": "131",
+    "Name": "Vocational Training",
+    "Taxonomy Tier 1": "Careers",
+    "Taxonomy Tier 2": "Vocational Training"
+  },
+  {
+    "id": "80DV8O",
+    "Name": "Communication",
+    "Taxonomy Tier 1": "Communication",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "380",
+    "Name": "Crime",
+    "Taxonomy Tier 1": "Crime",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "381",
+    "Name": "Disasters",
+    "Taxonomy Tier 1": "Disasters",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "132",
+    "Name": "Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "133",
+    "Name": "Adult Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Adult Education"
+  },
+  {
+    "id": "137",
+    "Name": "College Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "College Education"
+  },
+  {
+    "id": "138",
+    "Name": "College Planning",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "College Education"
+  },
+  {
+    "id": "139",
+    "Name": "Postgraduate Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "College Education"
+  },
+  {
+    "id": "140",
+    "Name": "Professional School",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "College Education"
+  },
+  {
+    "id": "141",
+    "Name": "Undergraduate Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "College Education"
+  },
+  {
+    "id": "142",
+    "Name": "Early Childhood Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Early Childhood Education"
+  },
+  {
+    "id": "143",
+    "Name": "Educational Assessment",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Educational Assessment"
+  },
+  {
+    "id": "144",
+    "Name": "Standardized Testing",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Educational Assessment"
+  },
+  {
+    "id": "145",
+    "Name": "Homeschooling",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Homeschooling"
+  },
+  {
+    "id": "146",
+    "Name": "Homework and Study",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Homework and Study"
+  },
+  {
+    "id": "147",
+    "Name": "Language Learning",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Language Learning"
+  },
+  {
+    "id": "148",
+    "Name": "Online Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Online Education"
+  },
+  {
+    "id": "149",
+    "Name": "Primary Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Primary Education"
+  },
+  {
+    "id": "134",
+    "Name": "Private School",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Private School"
+  },
+  {
+    "id": "135",
+    "Name": "Secondary Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Secondary Education"
+  },
+  {
+    "id": "136",
+    "Name": "Special Education",
+    "Taxonomy Tier 1": "Education",
+    "Taxonomy Tier 2": "Special Education"
+  },
+  {
+    "id": "JLBCU7",
+    "Name": "Entertainment",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "324",
+    "Name": "Movies",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Movies"
+  },
+  {
+    "id": "338",
+    "Name": "Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "640",
+    "Name": "Television",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Television"
+  },
+  {
+    "id": "8VZQHL",
+    "Name": "Events",
+    "Taxonomy Tier 1": "Events",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "162",
+    "Name": "Awards Shows",
+    "Taxonomy Tier 1": "Events",
+    "Taxonomy Tier 2": "Awards Shows"
+  },
+  {
+    "id": "180",
+    "Name": "Business Expos & Conferences",
+    "Taxonomy Tier 1": "Events",
+    "Taxonomy Tier 2": "Business Expos & Conferences"
+  },
+  {
+    "id": "185",
+    "Name": "Fan Conventions",
+    "Taxonomy Tier 1": "Events",
+    "Taxonomy Tier 2": "Fan Conventions"
+  },
+  {
+    "id": "186",
+    "Name": "Family and Relationships",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "187",
+    "Name": "Bereavement",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Bereavement"
+  },
+  {
+    "id": "188",
+    "Name": "Dating",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Dating"
+  },
+  {
+    "id": "189",
+    "Name": "Divorce",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Divorce"
+  },
+  {
+    "id": "190",
+    "Name": "Eldercare",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Eldercare"
+  },
+  {
+    "id": "191",
+    "Name": "Marriage and Civil Unions",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Marriage and Civil Unions"
+  },
+  {
+    "id": "192",
+    "Name": "Parenting",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Parenting"
+  },
+  {
+    "id": "193",
+    "Name": "Adoption and Fostering",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Parenting"
+  },
+  {
+    "id": "194",
+    "Name": "Daycare and Pre-School",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Parenting"
+  },
+  {
+    "id": "195",
+    "Name": "Internet Safety",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Parenting"
+  },
+  {
+    "id": "196",
+    "Name": "Parenting Babies and Toddlers",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Parenting"
+  },
+  {
+    "id": "197",
+    "Name": "Parenting Children Aged 4-11",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Parenting"
+  },
+  {
+    "id": "198",
+    "Name": "Parenting Teens",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Parenting"
+  },
+  {
+    "id": "199",
+    "Name": "Special Needs Kids",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Parenting"
+  },
+  {
+    "id": "200",
+    "Name": "Single Life",
+    "Taxonomy Tier 1": "Family and Relationships",
+    "Taxonomy Tier 2": "Single Life"
+  },
+  {
+    "id": "201",
+    "Name": "Fine Art",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "202",
+    "Name": "Costume",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": "Costume"
+  },
+  {
+    "id": "203",
+    "Name": "Dance",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": "Dance"
+  },
+  {
+    "id": "204",
+    "Name": "Design",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": "Design"
+  },
+  {
+    "id": "205",
+    "Name": "Digital Arts",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": "Digital Arts"
+  },
+  {
+    "id": "206",
+    "Name": "Fine Art Photography",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": "Fine Art Photography"
+  },
+  {
+    "id": "207",
+    "Name": "Modern Art",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": "Modern Art"
+  },
+  {
+    "id": "208",
+    "Name": "Opera",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": "Opera"
+  },
+  {
+    "id": "209",
+    "Name": "Theater",
+    "Taxonomy Tier 1": "Fine Art",
+    "Taxonomy Tier 2": "Theater"
+  },
+  {
+    "id": "210",
+    "Name": "Food & Drink",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "211",
+    "Name": "Alcoholic Beverages",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Alcoholic Beverages"
+  },
+  {
+    "id": "215",
+    "Name": "Barbecues and Grilling",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Barbecues and Grilling"
+  },
+  {
+    "id": "216",
+    "Name": "Cooking",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Cooking"
+  },
+  {
+    "id": "217",
+    "Name": "Desserts and Baking",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Desserts and Baking"
+  },
+  {
+    "id": "218",
+    "Name": "Dining Out",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Dining Out"
+  },
+  {
+    "id": "219",
+    "Name": "Food Allergies",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Food Allergies"
+  },
+  {
+    "id": "220",
+    "Name": "Food Movements",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Food Movements"
+  },
+  {
+    "id": "221",
+    "Name": "Healthy Cooking and Eating",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Healthy Cooking and Eating"
+  },
+  {
+    "id": "222",
+    "Name": "Non-Alcoholic Beverages",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Non-Alcoholic Beverages"
+  },
+  {
+    "id": "212",
+    "Name": "Vegan Diets",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Vegan Diets"
+  },
+  {
+    "id": "213",
+    "Name": "Vegetarian Diets",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "Vegetarian Diets"
+  },
+  {
+    "id": "214",
+    "Name": "World Cuisines",
+    "Taxonomy Tier 1": "Food & Drink",
+    "Taxonomy Tier 2": "World Cuisines"
+  },
+  {
+    "id": "SPSHQ5",
+    "Name": "Genres",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "VKIV56",
+    "Name": "Nature",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Nature"
+  },
+  {
+    "id": "325",
+    "Name": "Action/Adventure",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Action/Adventure"
+  },
+  {
+    "id": "641",
+    "Name": "Animation & Anime",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Animation & Anime"
+  },
+  {
+    "id": "44",
+    "Name": "Biographies",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Biographies"
+  },
+  {
+    "id": "646",
+    "Name": "Comedy",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Comedy"
+  },
+  {
+    "id": "332",
+    "Name": "Documentary",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Documentary"
+  },
+  {
+    "id": "647",
+    "Name": "Drama",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Drama"
+  },
+  {
+    "id": "648",
+    "Name": "Factual",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Factual"
+  },
+  {
+    "id": "645",
+    "Name": "Family/Children",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Family/Children"
+  },
+  {
+    "id": "335",
+    "Name": "Fantasy",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Fantasy"
+  },
+  {
+    "id": "EZWB7V",
+    "Name": "History",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "History"
+  },
+  {
+    "id": "649",
+    "Name": "Holiday",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Holiday"
+  },
+  {
+    "id": "336",
+    "Name": "Horror",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Horror"
+  },
+  {
+    "id": "TIFQA5",
+    "Name": "Lifestyle",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Lifestyle"
+  },
+  {
+    "id": "650",
+    "Name": "Music Video",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Music Video"
+  },
+  {
+    "id": "156",
+    "Name": "Musical",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Musical"
+  },
+  {
+    "id": "331",
+    "Name": "Mystery",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Mystery"
+  },
+  {
+    "id": "651",
+    "Name": "Reality TV",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Reality TV"
+  },
+  {
+    "id": "326",
+    "Name": "Romance",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Romance"
+  },
+  {
+    "id": "652",
+    "Name": "Science Fiction",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Science Fiction"
+  },
+  {
+    "id": "642",
+    "Name": "Soap Opera",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Soap Opera"
+  },
+  {
+    "id": "643",
+    "Name": "Special Interest (Indie/Art House)",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Special Interest (Indie/Art House)"
+  },
+  {
+    "id": "370",
+    "Name": "Sports Radio",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Sports Radio"
+  },
+  {
+    "id": "371",
+    "Name": "Talk Radio",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Talk Radio"
+  },
+  {
+    "id": "376",
+    "Name": "Public Radio",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Talk Radio"
+  },
+  {
+    "id": "A0AH3G",
+    "Name": "Talk Show",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Talk Show"
+  },
+  {
+    "id": "KHPC5A",
+    "Name": "True Crime",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "True Crime"
+  },
+  {
+    "id": "KHPC6A",
+    "Name": "Western",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Western"
+  },
+  {
+    "id": "51",
+    "Name": "Young Adult",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Young Adult"
+  },
+  {
+    "id": "700",
+    "Name": "Thriller",
+    "Taxonomy Tier 1": "Genres",
+    "Taxonomy Tier 2": "Thriller"
+  },
+  {
+    "id": "223",
+    "Name": "Healthy Living",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "224",
+    "Name": "Children's Health",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Children's Health"
+  },
+  {
+    "id": "225",
+    "Name": "Fitness and Exercise",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Fitness and Exercise"
+  },
+  {
+    "id": "226",
+    "Name": "Participant Sports",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Fitness and Exercise"
+  },
+  {
+    "id": "227",
+    "Name": "Running and Jogging",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Fitness and Exercise"
+  },
+  {
+    "id": "228",
+    "Name": "Men's Health",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Men's Health"
+  },
+  {
+    "id": "229",
+    "Name": "Nutrition",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Nutrition"
+  },
+  {
+    "id": "230",
+    "Name": "Senior Health",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Senior Health"
+  },
+  {
+    "id": "231",
+    "Name": "Weight Loss",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Weight Loss"
+  },
+  {
+    "id": "232",
+    "Name": "Wellness",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Wellness"
+  },
+  {
+    "id": "233",
+    "Name": "Alternative Medicine",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Wellness"
+  },
+  {
+    "id": "234",
+    "Name": "Herbs and Supplements",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Wellness"
+  },
+  {
+    "id": "235",
+    "Name": "Holistic Health",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Wellness"
+  },
+  {
+    "id": "236",
+    "Name": "Physical Therapy",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Wellness"
+  },
+  {
+    "id": "237",
+    "Name": "Smoking Cessation",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Wellness"
+  },
+  {
+    "id": "238",
+    "Name": "Women's Health",
+    "Taxonomy Tier 1": "Healthy Living",
+    "Taxonomy Tier 2": "Women's Health"
+  },
+  {
+    "id": "239",
+    "Name": "Hobbies & Interests",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "240",
+    "Name": "Antiquing and Antiques",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Antiquing and Antiques"
+  },
+  {
+    "id": "248",
+    "Name": "Arts and Crafts",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "249",
+    "Name": "Beadwork",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "250",
+    "Name": "Candle and Soap Making",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "251",
+    "Name": "Drawing and Sketching",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "252",
+    "Name": "Jewelry Making",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "253",
+    "Name": "Needlework",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "254",
+    "Name": "Painting",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "255",
+    "Name": "Photography",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "256",
+    "Name": "Scrapbooking",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "257",
+    "Name": "Woodworking",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Arts and Crafts"
+  },
+  {
+    "id": "258",
+    "Name": "Beekeeping",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Beekeeping"
+  },
+  {
+    "id": "259",
+    "Name": "Birdwatching",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Birdwatching"
+  },
+  {
+    "id": "260",
+    "Name": "Cigars",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Cigars"
+  },
+  {
+    "id": "261",
+    "Name": "Collecting",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Collecting"
+  },
+  {
+    "id": "262",
+    "Name": "Comic Books",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Collecting"
+  },
+  {
+    "id": "263",
+    "Name": "Stamps and Coins",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Collecting"
+  },
+  {
+    "id": "264",
+    "Name": "Content Production",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Content Production"
+  },
+  {
+    "id": "265",
+    "Name": "Audio Production",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Content Production"
+  },
+  {
+    "id": "266",
+    "Name": "Freelance Writing",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Content Production"
+  },
+  {
+    "id": "267",
+    "Name": "Screenwriting",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Content Production"
+  },
+  {
+    "id": "268",
+    "Name": "Video Production",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Content Production"
+  },
+  {
+    "id": "269",
+    "Name": "Games and Puzzles",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Games and Puzzles"
+  },
+  {
+    "id": "270",
+    "Name": "Board Games and Puzzles",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Games and Puzzles"
+  },
+  {
+    "id": "271",
+    "Name": "Card Games",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Games and Puzzles"
+  },
+  {
+    "id": "272",
+    "Name": "Roleplaying Games",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Games and Puzzles"
+  },
+  {
+    "id": "273",
+    "Name": "Genealogy and Ancestry",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Genealogy and Ancestry"
+  },
+  {
+    "id": "241",
+    "Name": "Magic and Illusion",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Magic and Illusion"
+  },
+  {
+    "id": "242",
+    "Name": "Model Toys",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Model Toys"
+  },
+  {
+    "id": "243",
+    "Name": "Musical Instruments",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Musical Instruments"
+  },
+  {
+    "id": "244",
+    "Name": "Paranormal Phenomena",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Paranormal Phenomena"
+  },
+  {
+    "id": "245",
+    "Name": "Radio Control",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Radio Control"
+  },
+  {
+    "id": "246",
+    "Name": "Sci-fi and Fantasy",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Sci-fi and Fantasy"
+  },
+  {
+    "id": "247",
+    "Name": "Workshops and Classes",
+    "Taxonomy Tier 1": "Hobbies & Interests",
+    "Taxonomy Tier 2": "Workshops and Classes"
+  },
+  {
+    "id": "1KXCLD",
+    "Name": "Holidays",
+    "Taxonomy Tier 1": "Holidays",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "157",
+    "Name": "National & Civic Holidays",
+    "Taxonomy Tier 1": "Holidays",
+    "Taxonomy Tier 2": "National & Civic Holidays"
+  },
+  {
+    "id": "274",
+    "Name": "Home & Garden",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "275",
+    "Name": "Gardening",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Gardening"
+  },
+  {
+    "id": "278",
+    "Name": "Home Appliances",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Home Appliances"
+  },
+  {
+    "id": "279",
+    "Name": "Home Entertaining",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Home Entertaining"
+  },
+  {
+    "id": "280",
+    "Name": "Home Improvement",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Home Improvement"
+  },
+  {
+    "id": "281",
+    "Name": "Home Security",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Home Security"
+  },
+  {
+    "id": "282",
+    "Name": "Indoor Environmental Quality",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Indoor Environmental Quality"
+  },
+  {
+    "id": "283",
+    "Name": "Interior Decorating",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Interior Decorating"
+  },
+  {
+    "id": "284",
+    "Name": "Landscaping",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Landscaping"
+  },
+  {
+    "id": "285",
+    "Name": "Outdoor Decorating",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Outdoor Decorating"
+  },
+  {
+    "id": "276",
+    "Name": "Remodeling & Construction",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Remodeling & Construction"
+  },
+  {
+    "id": "277",
+    "Name": "Smart Home",
+    "Taxonomy Tier 1": "Home & Garden",
+    "Taxonomy Tier 2": "Smart Home"
+  },
+  {
+    "id": "383",
+    "Name": "Law",
+    "Taxonomy Tier 1": "Law",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "286",
+    "Name": "Medical Health",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "323",
+    "Name": "Cosmetic Medical Services",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Cosmetic Medical Services"
+  },
+  {
+    "id": "287",
+    "Name": "Diseases and Conditions",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "288",
+    "Name": "Allergies",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "306",
+    "Name": "Blood Disorders",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "312",
+    "Name": "Bone and Joint Conditions",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "313",
+    "Name": "Brain and Nervous System Disorders",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "314",
+    "Name": "Cancer",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "315",
+    "Name": "Cold and Flu",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "316",
+    "Name": "Dental Health",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "317",
+    "Name": "Diabetes",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "318",
+    "Name": "Digestive Disorders",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "289",
+    "Name": "Ear, Nose and Throat Conditions",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "290",
+    "Name": "Endocrine and Metabolic Diseases",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "291",
+    "Name": "Hormonal Disorders",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "292",
+    "Name": "Menopause",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "293",
+    "Name": "Thyroid Disorders",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "294",
+    "Name": "Eye and Vision Conditions",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "295",
+    "Name": "Foot Health",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "296",
+    "Name": "Heart and Cardiovascular Diseases",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "297",
+    "Name": "Infectious Diseases",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "298",
+    "Name": "Injuries",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "299",
+    "Name": "First Aid",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "300",
+    "Name": "Lung and Respiratory Health",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "301",
+    "Name": "Mental Health",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "302",
+    "Name": "Reproductive Health",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "303",
+    "Name": "Birth Control",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "304",
+    "Name": "Infertility",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "305",
+    "Name": "Pregnancy",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "307",
+    "Name": "Sexual Health",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "308",
+    "Name": "Sexual Conditions",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "309",
+    "Name": "Skin and Dermatology",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "310",
+    "Name": "Sleep Disorders",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "311",
+    "Name": "Substance Abuse",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Diseases and Conditions"
+  },
+  {
+    "id": "319",
+    "Name": "Medical Tests",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Medical Tests"
+  },
+  {
+    "id": "320",
+    "Name": "Pharmaceutical Drugs",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Pharmaceutical Drugs"
+  },
+  {
+    "id": "321",
+    "Name": "Surgery",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Surgery"
+  },
+  {
+    "id": "322",
+    "Name": "Vaccines",
+    "Taxonomy Tier 1": "Medical Health",
+    "Taxonomy Tier 2": "Vaccines"
+  },
+  {
+    "id": "342",
+    "Name": "Adult Album Alternative",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "339",
+    "Name": "Adult Contemporary Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "340",
+    "Name": "Soft AC Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "341",
+    "Name": "Urban AC Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "343",
+    "Name": "Alternative Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "360",
+    "Name": "Blues",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "344",
+    "Name": "Children's Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "345",
+    "Name": "Classic Hits",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "346",
+    "Name": "Classical Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "347",
+    "Name": "College Radio",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "348",
+    "Name": "Comedy (Music and Audio)",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "349",
+    "Name": "Contemporary Hits/Pop/Top 40",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "350",
+    "Name": "Country Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "351",
+    "Name": "Dance and Electronic Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "354",
+    "Name": "Gospel Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "355",
+    "Name": "Hip Hop Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "356",
+    "Name": "Inspirational/New Age Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "357",
+    "Name": "Jazz",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "358",
+    "Name": "Oldies/Adult Standards",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "362",
+    "Name": "R&B/Soul/Funk",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "359",
+    "Name": "Reggae",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "361",
+    "Name": "Religious (Music and Audio)",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "363",
+    "Name": "Rock Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "364",
+    "Name": "Album-oriented Rock",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "365",
+    "Name": "Alternative Rock",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "366",
+    "Name": "Classic Rock",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "367",
+    "Name": "Hard Rock",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "368",
+    "Name": "Soft Rock",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "353",
+    "Name": "Songwriters/Folk",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "369",
+    "Name": "Soundtracks, TV and Showtunes",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "352",
+    "Name": "World/International Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "377",
+    "Name": "Urban Contemporary Music",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "378",
+    "Name": "Variety (Music and Audio)",
+    "Taxonomy Tier 1": "Entertainment",
+    "Taxonomy Tier 2": "Music"
+  },
+  {
+    "id": "163",
+    "Name": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "164",
+    "Name": "Anniversary",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Anniversary"
+  },
+  {
+    "id": "166",
+    "Name": "Baby Shower",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Baby Shower"
+  },
+  {
+    "id": "167",
+    "Name": "Bachelor Party",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Bachelor Party"
+  },
+  {
+    "id": "168",
+    "Name": "Bachelorette Party",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Bachelorette Party"
+  },
+  {
+    "id": "169",
+    "Name": "Birth",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Birth"
+  },
+  {
+    "id": "170",
+    "Name": "Birthday",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Birthday"
+  },
+  {
+    "id": "171",
+    "Name": "Funeral",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Funeral"
+  },
+  {
+    "id": "172",
+    "Name": "Graduation",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Graduation"
+  },
+  {
+    "id": "173",
+    "Name": "Prom",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Prom"
+  },
+  {
+    "id": "165",
+    "Name": "Wedding",
+    "Taxonomy Tier 1": "Personal Celebrations & Life Events",
+    "Taxonomy Tier 2": "Wedding"
+  },
+  {
+    "id": "391",
+    "Name": "Personal Finance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "392",
+    "Name": "Consumer Banking",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Consumer Banking"
+  },
+  {
+    "id": "393",
+    "Name": "Financial Assistance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Financial Assistance"
+  },
+  {
+    "id": "394",
+    "Name": "Government Support and Welfare",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Financial Assistance"
+  },
+  {
+    "id": "395",
+    "Name": "Student Financial Aid",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Financial Assistance"
+  },
+  {
+    "id": "396",
+    "Name": "Financial Planning",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Financial Planning"
+  },
+  {
+    "id": "397",
+    "Name": "Frugal Living",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Frugal Living"
+  },
+  {
+    "id": "417",
+    "Name": "Home Utilities",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Home Utilities"
+  },
+  {
+    "id": "418",
+    "Name": "Gas and Electric",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Home Utilities"
+  },
+  {
+    "id": "419",
+    "Name": "Internet Service Providers",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Home Utilities"
+  },
+  {
+    "id": "420",
+    "Name": "Phone Services",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Home Utilities"
+  },
+  {
+    "id": "421",
+    "Name": "Water Services",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Home Utilities"
+  },
+  {
+    "id": "398",
+    "Name": "Insurance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Insurance"
+  },
+  {
+    "id": "399",
+    "Name": "Health Insurance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Insurance"
+  },
+  {
+    "id": "400",
+    "Name": "Home Insurance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Insurance"
+  },
+  {
+    "id": "401",
+    "Name": "Life Insurance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Insurance"
+  },
+  {
+    "id": "402",
+    "Name": "Motor Insurance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Insurance"
+  },
+  {
+    "id": "403",
+    "Name": "Pet Insurance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Insurance"
+  },
+  {
+    "id": "404",
+    "Name": "Travel Insurance",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Insurance"
+  },
+  {
+    "id": "405",
+    "Name": "Personal Debt",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Debt"
+  },
+  {
+    "id": "406",
+    "Name": "Credit Cards",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Debt"
+  },
+  {
+    "id": "407",
+    "Name": "Home Financing",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Debt"
+  },
+  {
+    "id": "408",
+    "Name": "Personal Loans",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Debt"
+  },
+  {
+    "id": "409",
+    "Name": "Student Loans",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Debt"
+  },
+  {
+    "id": "410",
+    "Name": "Personal Investing",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Investing"
+  },
+  {
+    "id": "411",
+    "Name": "Hedge Funds",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Investing"
+  },
+  {
+    "id": "412",
+    "Name": "Mutual Funds",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Investing"
+  },
+  {
+    "id": "413",
+    "Name": "Options",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Investing"
+  },
+  {
+    "id": "414",
+    "Name": "Stocks and Bonds",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Investing"
+  },
+  {
+    "id": "415",
+    "Name": "Personal Taxes",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Personal Taxes"
+  },
+  {
+    "id": "416",
+    "Name": "Retirement Planning",
+    "Taxonomy Tier 1": "Personal Finance",
+    "Taxonomy Tier 2": "Retirement Planning"
+  },
+  {
+    "id": "422",
+    "Name": "Pets",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "423",
+    "Name": "Birds",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Birds"
+  },
+  {
+    "id": "424",
+    "Name": "Cats",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Cats"
+  },
+  {
+    "id": "425",
+    "Name": "Dogs",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Dogs"
+  },
+  {
+    "id": "426",
+    "Name": "Fish and Aquariums",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Fish and Aquariums"
+  },
+  {
+    "id": "427",
+    "Name": "Large Animals",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Large Animals"
+  },
+  {
+    "id": "428",
+    "Name": "Pet Adoptions",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Pet Adoptions"
+  },
+  {
+    "id": "431",
+    "Name": "Pet Supplies",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Pet Supplies"
+  },
+  {
+    "id": "429",
+    "Name": "Reptiles",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Reptiles"
+  },
+  {
+    "id": "430",
+    "Name": "Veterinary Medicine",
+    "Taxonomy Tier 1": "Pets",
+    "Taxonomy Tier 2": "Veterinary Medicine"
+  },
+  {
+    "id": "386",
+    "Name": "Politics",
+    "Taxonomy Tier 1": "Politics",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "8YPBBL",
+    "Name": "Civic affairs",
+    "Taxonomy Tier 1": "Politics",
+    "Taxonomy Tier 2": "Civic affairs"
+  },
+  {
+    "id": "387",
+    "Name": "Elections",
+    "Taxonomy Tier 1": "Politics",
+    "Taxonomy Tier 2": "Elections"
+  },
+  {
+    "id": "388",
+    "Name": "Political Issues & Policy",
+    "Taxonomy Tier 1": "Politics",
+    "Taxonomy Tier 2": "Political Issues & Policy"
+  },
+  {
+    "id": "432",
+    "Name": "Pop Culture",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "433",
+    "Name": "Celebrity Deaths",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": "Celebrity Deaths"
+  },
+  {
+    "id": "434",
+    "Name": "Celebrity Families",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": "Celebrity Families"
+  },
+  {
+    "id": "435",
+    "Name": "Celebrity Homes",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": "Celebrity Homes"
+  },
+  {
+    "id": "436",
+    "Name": "Celebrity Pregnancy",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": "Celebrity Pregnancy"
+  },
+  {
+    "id": "437",
+    "Name": "Celebrity Relationships",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": "Celebrity Relationships"
+  },
+  {
+    "id": "438",
+    "Name": "Celebrity Scandal",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": "Celebrity Scandal"
+  },
+  {
+    "id": "439",
+    "Name": "Celebrity Style",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": "Celebrity Style"
+  },
+  {
+    "id": "440",
+    "Name": "Humor and Satire",
+    "Taxonomy Tier 1": "Pop Culture",
+    "Taxonomy Tier 2": "Humor and Satire"
+  },
+  {
+    "id": "W3CW2J",
+    "Name": "Productivity",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "441",
+    "Name": "Real Estate",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "442",
+    "Name": "Apartments",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Apartments"
+  },
+  {
+    "id": "445",
+    "Name": "Developmental Sites",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Developmental Sites"
+  },
+  {
+    "id": "446",
+    "Name": "Hotel Properties",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Hotel Properties"
+  },
+  {
+    "id": "447",
+    "Name": "Houses",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Houses"
+  },
+  {
+    "id": "448",
+    "Name": "Industrial Property",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Industrial Property"
+  },
+  {
+    "id": "449",
+    "Name": "Land and Farms",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Land and Farms"
+  },
+  {
+    "id": "450",
+    "Name": "Office Property",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Office Property"
+  },
+  {
+    "id": "451",
+    "Name": "Real Estate Buying and Selling",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Real Estate Buying and Selling"
+  },
+  {
+    "id": "452",
+    "Name": "Real Estate Renting and Leasing",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Real Estate Renting and Leasing"
+  },
+  {
+    "id": "443",
+    "Name": "Retail Property",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Retail Property"
+  },
+  {
+    "id": "444",
+    "Name": "Vacation Properties",
+    "Taxonomy Tier 1": "Real Estate",
+    "Taxonomy Tier 2": "Vacation Properties"
+  },
+  {
+    "id": "453",
+    "Name": "Religion & Spirituality",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "454",
+    "Name": "Agnosticism",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Agnosticism"
+  },
+  {
+    "id": "456",
+    "Name": "Astrology",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Astrology"
+  },
+  {
+    "id": "457",
+    "Name": "Atheism",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Atheism"
+  },
+  {
+    "id": "458",
+    "Name": "Buddhism",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Buddhism"
+  },
+  {
+    "id": "459",
+    "Name": "Christianity",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Christianity"
+  },
+  {
+    "id": "460",
+    "Name": "Hinduism",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Hinduism"
+  },
+  {
+    "id": "461",
+    "Name": "Islam",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Islam"
+  },
+  {
+    "id": "462",
+    "Name": "Judaism",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Judaism"
+  },
+  {
+    "id": "463",
+    "Name": "Sikhism",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Sikhism"
+  },
+  {
+    "id": "455",
+    "Name": "Spirituality",
+    "Taxonomy Tier 1": "Religion & Spirituality",
+    "Taxonomy Tier 2": "Spirituality"
+  },
+  {
+    "id": "464",
+    "Name": "Science",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "465",
+    "Name": "Biological Sciences",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Biological Sciences"
+  },
+  {
+    "id": "466",
+    "Name": "Chemistry",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Chemistry"
+  },
+  {
+    "id": "467",
+    "Name": "Environment",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Environment"
+  },
+  {
+    "id": "468",
+    "Name": "Genetics",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Genetics"
+  },
+  {
+    "id": "469",
+    "Name": "Geography",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Geography"
+  },
+  {
+    "id": "470",
+    "Name": "Geology",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Geology"
+  },
+  {
+    "id": "471",
+    "Name": "Physics",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Physics"
+  },
+  {
+    "id": "472",
+    "Name": "Space and Astronomy",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Space and Astronomy"
+  },
+  {
+    "id": "390",
+    "Name": "Weather",
+    "Taxonomy Tier 1": "Science",
+    "Taxonomy Tier 2": "Weather"
+  },
+  {
+    "id": "v9i3On",
+    "Name": "Sensitive Topics",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "Rm3SiT",
+    "Name": "Adult & Explicit Sexual Content",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Adult & Explicit Sexual Content"
+  },
+  {
+    "id": "avbNf2",
+    "Name": "Arms & Ammunition",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Arms & Ammunition"
+  },
+  {
+    "id": "XtODT3",
+    "Name": "Crime & Harmful Acts to Individuals, Society & Human Right Violations",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Crime & Harmful Acts to Individuals, Society & Human Right Violations"
+  },
+  {
+    "id": "I4GWl6",
+    "Name": "Death, Injury, or Military Conflict",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Death, Injury, or Military Conflict"
+  },
+  {
+    "id": "Z7rJBM",
+    "Name": "Debated Sensitive Social Issues",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Debated Sensitive Social Issues"
+  },
+  {
+    "id": "HxqYV1",
+    "Name": "Hate Speech and Acts of Aggression",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Hate Speech and Acts of Aggression"
+  },
+  {
+    "id": "pg0WhF",
+    "Name": "Illegal Drugs, Tobacco, eCigarettes, Vaping, Alcohol",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Illegal Drugs, Tobacco, eCigarettes, Vaping, Alcohol"
+  },
+  {
+    "id": "j9PaO9",
+    "Name": "Obscenity and Profanity",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Obscenity and Profanity"
+  },
+  {
+    "id": "mm3UXx",
+    "Name": "Online Piracy",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Online Piracy"
+  },
+  {
+    "id": "6i4dB6",
+    "Name": "Spam or Harmful Content",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Spam or Harmful Content"
+  },
+  {
+    "id": "8FD8nI",
+    "Name": "Terrorism",
+    "Taxonomy Tier 1": "Sensitive Topics",
+    "Taxonomy Tier 2": "Terrorism"
+  },
+  {
+    "id": "473",
+    "Name": "Shopping",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "482",
+    "Name": "Children's Games and Toys",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Children's Games and Toys"
+  },
+  {
+    "id": "474",
+    "Name": "Coupons and Discounts",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Coupons and Discounts"
+  },
+  {
+    "id": "475",
+    "Name": "Flower Shopping",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Flower Shopping"
+  },
+  {
+    "id": "476",
+    "Name": "Gifts and Greetings Cards",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Gifts and Greetings Cards"
+  },
+  {
+    "id": "477",
+    "Name": "Grocery Shopping",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Grocery Shopping"
+  },
+  {
+    "id": "478",
+    "Name": "Holiday Shopping",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Holiday Shopping"
+  },
+  {
+    "id": "479",
+    "Name": "Household Supplies",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Household Supplies"
+  },
+  {
+    "id": "480",
+    "Name": "Lotteries and Scratchcards",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Lotteries and Scratchcards"
+  },
+  {
+    "id": "161",
+    "Name": "Party Supplies and Decorations",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Party Supplies and Decorations"
+  },
+  {
+    "id": "481",
+    "Name": "Sales and Promotions",
+    "Taxonomy Tier 1": "Shopping",
+    "Taxonomy Tier 2": "Sales and Promotions"
+  },
+  {
+    "id": "483",
+    "Name": "Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "484",
+    "Name": "American Football",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "American Football"
+  },
+  {
+    "id": "507",
+    "Name": "Australian Rules Football",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Australian Rules Football"
+  },
+  {
+    "id": "518",
+    "Name": "Auto Racing",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Auto Racing"
+  },
+  {
+    "id": "519",
+    "Name": "Motorcycle Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Auto Racing"
+  },
+  {
+    "id": "534",
+    "Name": "Badminton",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Badminton"
+  },
+  {
+    "id": "545",
+    "Name": "Baseball",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Baseball"
+  },
+  {
+    "id": "547",
+    "Name": "Basketball",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Basketball"
+  },
+  {
+    "id": "548",
+    "Name": "Beach Volleyball",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Beach Volleyball"
+  },
+  {
+    "id": "549",
+    "Name": "Bodybuilding",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Bodybuilding"
+  },
+  {
+    "id": "550",
+    "Name": "Bowling",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Bowling"
+  },
+  {
+    "id": "485",
+    "Name": "Boxing",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Boxing"
+  },
+  {
+    "id": "486",
+    "Name": "Cheerleading",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Cheerleading"
+  },
+  {
+    "id": "487",
+    "Name": "College Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "College Sports"
+  },
+  {
+    "id": "490",
+    "Name": "College Baseball",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "College Sports"
+  },
+  {
+    "id": "489",
+    "Name": "College Basketball",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "College Sports"
+  },
+  {
+    "id": "488",
+    "Name": "College Football",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "College Sports"
+  },
+  {
+    "id": "491",
+    "Name": "Cricket",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Cricket"
+  },
+  {
+    "id": "492",
+    "Name": "Cycling",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Cycling"
+  },
+  {
+    "id": "493",
+    "Name": "Darts",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Darts"
+  },
+  {
+    "id": "494",
+    "Name": "Disabled Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Disabled Sports"
+  },
+  {
+    "id": "495",
+    "Name": "Diving",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Diving"
+  },
+  {
+    "id": "496",
+    "Name": "Equine Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Equine Sports"
+  },
+  {
+    "id": "497",
+    "Name": "Horse Racing",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Equine Sports"
+  },
+  {
+    "id": "498",
+    "Name": "Extreme Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "499",
+    "Name": "Canoeing and Kayaking",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "500",
+    "Name": "Climbing",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "501",
+    "Name": "Paintball",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "502",
+    "Name": "Scuba Diving",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "503",
+    "Name": "Skateboarding",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "504",
+    "Name": "Snowboarding",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "505",
+    "Name": "Surfing and Bodyboarding",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "506",
+    "Name": "Waterskiing and Wakeboarding",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Extreme Sports"
+  },
+  {
+    "id": "508",
+    "Name": "Fantasy Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Fantasy Sports"
+  },
+  {
+    "id": "509",
+    "Name": "Field Hockey",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Field Hockey"
+  },
+  {
+    "id": "510",
+    "Name": "Figure Skating",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Figure Skating"
+  },
+  {
+    "id": "511",
+    "Name": "Fishing Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Fishing Sports"
+  },
+  {
+    "id": "512",
+    "Name": "Golf",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Golf"
+  },
+  {
+    "id": "513",
+    "Name": "Gymnastics",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Gymnastics"
+  },
+  {
+    "id": "514",
+    "Name": "Hunting and Shooting",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Hunting and Shooting"
+  },
+  {
+    "id": "515",
+    "Name": "Ice Hockey",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Ice Hockey"
+  },
+  {
+    "id": "516",
+    "Name": "Inline Skating",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Inline Skating"
+  },
+  {
+    "id": "517",
+    "Name": "Lacrosse",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Lacrosse"
+  },
+  {
+    "id": "520",
+    "Name": "Martial Arts",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Martial Arts"
+  },
+  {
+    "id": "521",
+    "Name": "Olympic Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Olympic Sports"
+  },
+  {
+    "id": "522",
+    "Name": "Summer Olympic Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Olympic Sports"
+  },
+  {
+    "id": "523",
+    "Name": "Winter Olympic Sports",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Olympic Sports"
+  },
+  {
+    "id": "524",
+    "Name": "Poker and Professional Gambling",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Poker and Professional Gambling"
+  },
+  {
+    "id": "525",
+    "Name": "Rodeo",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Rodeo"
+  },
+  {
+    "id": "526",
+    "Name": "Rowing",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Rowing"
+  },
+  {
+    "id": "527",
+    "Name": "Rugby",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Rugby"
+  },
+  {
+    "id": "528",
+    "Name": "Rugby League",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Rugby"
+  },
+  {
+    "id": "529",
+    "Name": "Rugby Union",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Rugby"
+  },
+  {
+    "id": "530",
+    "Name": "Sailing",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Sailing"
+  },
+  {
+    "id": "531",
+    "Name": "Skiing",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Skiing"
+  },
+  {
+    "id": "532",
+    "Name": "Snooker/Pool/Billiards",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Snooker/Pool/Billiards"
+  },
+  {
+    "id": "533",
+    "Name": "Soccer",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Soccer"
+  },
+  {
+    "id": "535",
+    "Name": "Softball",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Softball"
+  },
+  {
+    "id": "551",
+    "Name": "Sports Equipment",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Sports Equipment"
+  },
+  {
+    "id": "536",
+    "Name": "Squash",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Squash"
+  },
+  {
+    "id": "537",
+    "Name": "Swimming",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Swimming"
+  },
+  {
+    "id": "538",
+    "Name": "Table Tennis",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Table Tennis"
+  },
+  {
+    "id": "539",
+    "Name": "Tennis",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Tennis"
+  },
+  {
+    "id": "540",
+    "Name": "Track and Field",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Track and Field"
+  },
+  {
+    "id": "541",
+    "Name": "Volleyball",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Volleyball"
+  },
+  {
+    "id": "542",
+    "Name": "Walking",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Walking"
+  },
+  {
+    "id": "543",
+    "Name": "Water Polo",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Water Polo"
+  },
+  {
+    "id": "544",
+    "Name": "Weightlifting",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Weightlifting"
+  },
+  {
+    "id": "546",
+    "Name": "Wrestling",
+    "Taxonomy Tier 1": "Sports",
+    "Taxonomy Tier 2": "Wrestling"
+  },
+  {
+    "id": "552",
+    "Name": "Style & Fashion",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "553",
+    "Name": "Beauty",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Beauty"
+  },
+  {
+    "id": "554",
+    "Name": "Hair Care",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Beauty"
+  },
+  {
+    "id": "555",
+    "Name": "Makeup and Accessories",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Beauty"
+  },
+  {
+    "id": "556",
+    "Name": "Nail Care",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Beauty"
+  },
+  {
+    "id": "557",
+    "Name": "Natural and Organic Beauty",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Beauty"
+  },
+  {
+    "id": "558",
+    "Name": "Perfume and Fragrance",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Beauty"
+  },
+  {
+    "id": "559",
+    "Name": "Skin Care",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Beauty"
+  },
+  {
+    "id": "574",
+    "Name": "Body Art",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Body Art"
+  },
+  {
+    "id": "575",
+    "Name": "Children's Clothing",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Children's Clothing"
+  },
+  {
+    "id": "576",
+    "Name": "Designer Clothing",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Designer Clothing"
+  },
+  {
+    "id": "577",
+    "Name": "Fashion Trends",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Fashion Trends"
+  },
+  {
+    "id": "578",
+    "Name": "High Fashion",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "High Fashion"
+  },
+  {
+    "id": "579",
+    "Name": "Men's Fashion",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "580",
+    "Name": "Men's Accessories",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "581",
+    "Name": "Men's Jewelry and Watches",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "582",
+    "Name": "Men's Clothing",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "583",
+    "Name": "Men's Business Wear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "584",
+    "Name": "Men's Casual Wear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "585",
+    "Name": "Men's Formal Wear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "586",
+    "Name": "Men's Outerwear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "587",
+    "Name": "Men's Sportswear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "588",
+    "Name": "Men's Underwear and Sleepwear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "589",
+    "Name": "Men's Shoes and Footwear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Men's Fashion"
+  },
+  {
+    "id": "590",
+    "Name": "Personal Care",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Personal Care"
+  },
+  {
+    "id": "591",
+    "Name": "Bath and Shower",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Personal Care"
+  },
+  {
+    "id": "592",
+    "Name": "Deodorant and Antiperspirant",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Personal Care"
+  },
+  {
+    "id": "593",
+    "Name": "Oral care",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Personal Care"
+  },
+  {
+    "id": "594",
+    "Name": "Shaving",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Personal Care"
+  },
+  {
+    "id": "595",
+    "Name": "Street Style",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Street Style"
+  },
+  {
+    "id": "560",
+    "Name": "Women's Fashion",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "561",
+    "Name": "Women's Accessories",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "562",
+    "Name": "Women's Glasses",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "563",
+    "Name": "Women's Handbags and Wallets",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "564",
+    "Name": "Women's Hats and Scarves",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "565",
+    "Name": "Women's Jewelry and Watches",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "566",
+    "Name": "Women's Clothing",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "567",
+    "Name": "Women's Business Wear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "568",
+    "Name": "Women's Casual Wear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "569",
+    "Name": "Women's Formal Wear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "570",
+    "Name": "Women's Intimates and Sleepwear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "571",
+    "Name": "Women's Outerwear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "572",
+    "Name": "Women's Sportswear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "573",
+    "Name": "Women's Shoes and Footwear",
+    "Taxonomy Tier 1": "Style & Fashion",
+    "Taxonomy Tier 2": "Women's Fashion"
+  },
+  {
+    "id": "596",
+    "Name": "Technology & Computing",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "597",
+    "Name": "Artificial Intelligence",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Artificial Intelligence"
+  },
+  {
+    "id": "598",
+    "Name": "Augmented Reality",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Augmented Reality"
+  },
+  {
+    "id": "599",
+    "Name": "Computing",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "600",
+    "Name": "Computer Networking",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "601",
+    "Name": "Computer Peripherals",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "602",
+    "Name": "Computer Software and Applications",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "603",
+    "Name": "3-D Graphics",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "608",
+    "Name": "Antivirus Software",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "609",
+    "Name": "Browsers",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "610",
+    "Name": "Computer Animation",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "611",
+    "Name": "Databases",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "612",
+    "Name": "Desktop Publishing",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "613",
+    "Name": "Digital Audio",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "WQC6HR",
+    "Name": "Maps & Navigation",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "614",
+    "Name": "Graphics Software",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "615",
+    "Name": "Operating Systems",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "604",
+    "Name": "Photo Editing Software",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "605",
+    "Name": "Shareware and Freeware",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "606",
+    "Name": "Video Software",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "607",
+    "Name": "Web Conferencing",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "616",
+    "Name": "Data Storage and Warehousing",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "617",
+    "Name": "Desktops",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "618",
+    "Name": "Information and Network Security",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "619",
+    "Name": "Internet",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "620",
+    "Name": "Cloud Computing",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "623",
+    "Name": "Email",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "624",
+    "Name": "Internet for Beginners",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "625",
+    "Name": "Internet of Things",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "626",
+    "Name": "IT and Internet Support",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "627",
+    "Name": "Search",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "628",
+    "Name": "Social Networking",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "629",
+    "Name": "Web Design and HTML",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "621",
+    "Name": "Web Development",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "622",
+    "Name": "Web Hosting",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "630",
+    "Name": "Laptops",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "631",
+    "Name": "Programming Languages",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Computing"
+  },
+  {
+    "id": "632",
+    "Name": "Consumer Electronics",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Consumer Electronics"
+  },
+  {
+    "id": "633",
+    "Name": "Cameras and Camcorders",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Consumer Electronics"
+  },
+  {
+    "id": "634",
+    "Name": "Home Entertainment Systems",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Consumer Electronics"
+  },
+  {
+    "id": "635",
+    "Name": "Smartphones",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Consumer Electronics"
+  },
+  {
+    "id": "636",
+    "Name": "Tablets and E-readers",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Consumer Electronics"
+  },
+  {
+    "id": "637",
+    "Name": "Wearable Technology",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Consumer Electronics"
+  },
+  {
+    "id": "638",
+    "Name": "Robotics",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Robotics"
+  },
+  {
+    "id": "639",
+    "Name": "Virtual Reality",
+    "Taxonomy Tier 1": "Technology & Computing",
+    "Taxonomy Tier 2": "Virtual Reality"
+  },
+  {
+    "id": "653",
+    "Name": "Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "654",
+    "Name": "Travel Accessories",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Accessories"
+  },
+  {
+    "id": "655",
+    "Name": "Travel Locations",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Locations"
+  },
+  {
+    "id": "656",
+    "Name": "Africa Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Locations"
+  },
+  {
+    "id": "657",
+    "Name": "Asia Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Locations"
+  },
+  {
+    "id": "658",
+    "Name": "Australia and Oceania Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Locations"
+  },
+  {
+    "id": "659",
+    "Name": "Europe Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Locations"
+  },
+  {
+    "id": "660",
+    "Name": "North America Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Locations"
+  },
+  {
+    "id": "661",
+    "Name": "Polar Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Locations"
+  },
+  {
+    "id": "662",
+    "Name": "South America Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Locations"
+  },
+  {
+    "id": "663",
+    "Name": "Travel Preparation and Advice",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Preparation and Advice"
+  },
+  {
+    "id": "664",
+    "Name": "Travel Type",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "665",
+    "Name": "Adventure Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "672",
+    "Name": "Air Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "673",
+    "Name": "Beach Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "674",
+    "Name": "Bed & Breakfasts",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "675",
+    "Name": "Budget Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "676",
+    "Name": "Business Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "677",
+    "Name": "Camping",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "678",
+    "Name": "Cruises",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "679",
+    "Name": "Day Trips",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "666",
+    "Name": "Family Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "667",
+    "Name": "Honeymoons and Getaways",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "668",
+    "Name": "Hotels and Motels",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "669",
+    "Name": "Rail Travel",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "670",
+    "Name": "Road Trips",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "671",
+    "Name": "Spas",
+    "Taxonomy Tier 1": "Travel",
+    "Taxonomy Tier 2": "Travel Type"
+  },
+  {
+    "id": "680",
+    "Name": "Video Gaming",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": ""
+  },
+  {
+    "id": "681",
+    "Name": "Console Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Console Games"
+  },
+  {
+    "id": "682",
+    "Name": "eSports",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "eSports"
+  },
+  {
+    "id": "683",
+    "Name": "Mobile Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Mobile Games"
+  },
+  {
+    "id": "684",
+    "Name": "PC Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "PC Games"
+  },
+  {
+    "id": "685",
+    "Name": "Video Game Genres",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "686",
+    "Name": "Action Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "691",
+    "Name": "Action-Adventure Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "MQ2XML",
+    "Name": "Adult Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "692",
+    "Name": "Adventure Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "ZJG29S",
+    "Name": "Casino and Gambling Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "693",
+    "Name": "Casual Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "694",
+    "Name": "Educational Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "695",
+    "Name": "Exercise and Fitness Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "VWGKS7",
+    "Name": "Family Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "II436J",
+    "Name": "Horror Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "696",
+    "Name": "MMOs",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "697",
+    "Name": "Music and Party Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "698",
+    "Name": "Puzzle Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "VK7KD0",
+    "Name": "Racing Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "687",
+    "Name": "Role-Playing Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "688",
+    "Name": "Simulation Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "689",
+    "Name": "Sports Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "690",
+    "Name": "Strategy Video Games",
+    "Taxonomy Tier 1": "Video Gaming",
+    "Taxonomy Tier 2": "Video Game Genres"
+  },
+  {
+    "id": "389",
+    "Name": "War and Conflicts",
+    "Taxonomy Tier 1": "War and Conflicts",
+    "Taxonomy Tier 2": ""
+  }
+]
