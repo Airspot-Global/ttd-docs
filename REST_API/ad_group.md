@@ -907,9 +907,21 @@ post[/v3/adgroup](/v3/portal/api/ref/post-adgroup)
 
 Create a new Ad Group.
 
+> [!WARNING]
+> **Field Deprecation (HTTP 410 Gone as of January 12, 2026)**:
+> The attribute `AdBrainHouseholdCrossDeviceEnabled` (both at top-level and inside `RTBAttributes`) was deprecated on 2026 January 12.
+> Creating an ad group with this attribute will fail with `HTTP 410 Gone: AdBrainHouseholdCrossDeviceEnabled was deprecated on 2026 January 12`.
+> For cross-device targeting, specify **Identity Alliance** (`CrossDeviceVendorId: 10` for Person or `11` for Household) inside `RTBAttributes.AudienceTargeting.CrossDeviceVendorListForAudience`.
+
 put[/v3/adgroup](/v3/portal/api/ref/put-adgroup)
 
 Update an existing Ad Group.
+
+> [!WARNING]
+> **Field Deprecation (HTTP 410 Gone as of January 12, 2026)**:
+> The attribute `AdBrainHouseholdCrossDeviceEnabled` (both at top-level and inside `RTBAttributes`) was deprecated on 2026 January 12.
+> Updating an ad group with this attribute will fail with `HTTP 410 Gone: AdBrainHouseholdCrossDeviceEnabled was deprecated on 2026 January 12`.
+> When performing partial updates to ad groups, ensure read-only and deprecated fields are stripped from the payload.
 
 get[/v3/adgroup/{adGroupId}](/v3/portal/api/ref/get-adgroup-adgroupid)deprecated
 

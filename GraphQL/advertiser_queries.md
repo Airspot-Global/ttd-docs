@@ -7,7 +7,7 @@
 
 # Advertiser Queries
 
-After creating the advertiser, you can retrieve advertiser details using either the GraphQL or REST APIs. While the REST endpoints allow you to retrieve only one advertiser at a time, the GraphQl API enables you to create custom queries to search across multiple associated child records.
+After [creating the advertiser](advertiser_create.md), you can retrieve advertiser details using either the GraphQL or REST APIs. While the REST endpoints allow you to retrieve only one advertiser at a time, the GraphQl API enables you to create custom queries to search across multiple associated child records.
 
 > **TIP**: If you're new to GraphQL, explore our [GraphQL API Resource Hub](/v3/portal/resources/doc/GqlApiHub) to learn the basics—like query anatomy, authentication, and rate limits—as well as how to run [bulk queries](/v3/portal/api/doc/GqlBulkOperations).
 

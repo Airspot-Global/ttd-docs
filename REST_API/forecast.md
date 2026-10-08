@@ -3,6 +3,9 @@
 - Source: https://partner.thetradedesk.com/v3/portal/api/area/Forecast
 - Category: REST_API
 
+> [!NOTE]
+> This is a legacy forecast documentation. For the latest, see the [Forecasting API Guide](../Guides/forecasting_api.md).
+
 ---
 
 [

@@ -56,6 +56,10 @@ Every API call returns the entire entity in the response payload. If your platfo
 
 If updates need to be pushed, we allow the flexibility to do partial updates to all entities by just supplying the entity ID and the parameters that you would like to change. In the example below, we use a PUT call to make an update to the campaign budget. The GET - PUT workflow is not supported with our API, as there are parameters that are included in the GET response that are not allowed when pushing an update. Use the related delta endpoint if you need to understand an entity's state before pushing a change.
 
+> [!IMPORTANT]
+> **Kokai Campaign Provisioning & Seed Association**:
+> In Kokai, after creating a campaign via `POST /v3/campaign` or GraphQL `campaignCreate`, seed attachment must be performed via the GraphQL [`campaignUpdateSeed` mutation](seeds.md#attach-to-campaign). Legacy bulk settings endpoints such as `PUT /v3/campaign/bulksettings` are deprecated and return `HTTP 405 Method Not Allowed`.
+
 ### 
 
 Efficient Syncing using Delta Endpoints[](#syncing)

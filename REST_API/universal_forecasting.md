@@ -3,6 +3,9 @@
 - Source: https://partner.thetradedesk.com/v3/portal/api/area/Universal%20Forecasting
 - Category: REST_API
 
+> [!NOTE]
+> For a comprehensive guide on how to use the Forecasting API, see the [Forecasting API Guide](../Guides/forecasting_api.md).
+
 ---
 
 [

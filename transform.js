@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const tsvPath = '/Users/abdessamadmisbah/Documents/DBA/Airspot/App/ttd-documentation/ttd-api-docs/taxonomy.tsv';
-const jsonPath = '/Users/abdessamadmisbah/Documents/DBA/Airspot/App/ttd-documentation/ttd-api-docs/taxonomy.json';
+const tsvPath = path.resolve(__dirname, 'taxonomy.tsv');
+const jsonPath = path.resolve(__dirname, 'taxonomy.json');
 
 try {
     const data = fs.readFileSync(tsvPath, 'utf8');

@@ -277,35 +277,33 @@ Here's what you need to know about seeds in campaigns:
 *   The same GraphQL `campaignUpdateSeed` mutation enables you to attach a new seed to a campaign or replace the existing seed.
 *   You can update seeds and other data for multiple campaigns in a single GraphQL call. For details, see [GraphQL API Bulk Operations](/v3/portal/api/doc/GqlBulkOperations).
 
+> [!CAUTION]
+> **Deprecated REST Endpoint (HTTP 405 Method Not Allowed)**:
+> In Kokai environments, attempting to associate a seed with a campaign using legacy REST `PUT /v3/campaign/bulksettings` fails with `HTTP 405 Method Not Allowed` (`Allow: GET`).
+> Seed assignment in Kokai is handled exclusively via the GraphQL `campaignUpdateSeed` mutation.
+
 > **TIP**: To look up seed details, including the campaigns it's associated with, run a `seed` query. For an example, see [Look Up Seed Details by Seed ID](#get-seed).
 
 Here's an example of a `campaignUpdateSeed` mutation that attaches a seed to a campaign:
 
-mutation {
-
-    campaignUpdateSeed(
-
-        input: { 
-
-            campaignId: "xyz987b", 
-
-            seedId: "klmp432o"
-
-        }
-
-        )
-
-    {
-
-        data {
-
-            id
-
-        }
-
-    }
-
+```graphql
+mutation CampaignUpdateSeed($campaignId: ID!, $seedId: ID!) {
+  campaignUpdateSeed(
+    input: {
+      campaignId: $campaignId
+      seedId: $seedId
+    }
+  ) {
+    data {
+      id
+    }
+    userErrors {
+      message
+      field
+    }
+  }
 }
+```
 
 ## 
 

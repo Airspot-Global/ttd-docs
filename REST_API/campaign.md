@@ -939,11 +939,30 @@ This is a legacy endpoint. Use the [`campaignCreate` mutation](/v3/portal/api/gq
 
 Create a new campaign.
 
+> [!TIP]
+> For a detailed walkthrough of the request payloads for both REST and GraphQL, including mandatory fields and examples, see the [Campaign Creation Payload Guide](../Guides/campaign_creation_payload.md).
+
 put[/v3/campaign](/v3/portal/api/ref/put-campaign)legacy
 
 This is a legacy endpoint. Use the [`campaignUpdate` mutation](/v3/portal/api/gql-doc/campaign-update) in GraphQL for improved performance and expanded functionality.
 
 Update an existing campaign.
+
+put[/v3/campaign/bulksettings](/v3/portal/api/ref/put-campaign-bulksettings)deprecated
+
+> [!CAUTION]
+> **Deprecated Endpoint (HTTP 405 Method Not Allowed)**:
+> In Kokai environments, `PUT /v3/campaign/bulksettings` is deprecated and returns `HTTP 405 Method Not Allowed` (`Allow: GET`).
+> Do not use this endpoint for associating seeds with campaigns.
+> Instead, use the canonical Kokai GraphQL [`campaignUpdateSeed` mutation](../Guides/seeds.md#attach-to-campaign):
+> ```graphql
+> mutation CampaignUpdateSeed($campaignId: ID!, $seedId: ID!) {
+>   campaignUpdateSeed(input: { campaignId: $campaignId, seedId: $seedId }) {
+>     data { id }
+>     userErrors { message field }
+>   }
+> }
+> ```
 
 get[/v3/campaign/{campaignId}](/v3/portal/api/ref/get-campaign-campaignid)legacy
 

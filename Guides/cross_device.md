@@ -9,6 +9,11 @@
 
 Cross-device targeting enables you to scale your high-value audiences across devices and environments. It works in tandem with [frequency](/v3/portal/api/doc/Frequency) capping to limit the number of times a user sees an ad across all of their devices, not just the device on which they first saw the ad.
 
+> [!WARNING]
+> **Deprecation Notice (January 12, 2026)**:
+> The legacy field `AdBrainHouseholdCrossDeviceEnabled` was deprecated on 2026 January 12. Any API requests to create or update ad groups containing this field fail with `HTTP 410 Gone: AdBrainHouseholdCrossDeviceEnabled was deprecated on 2026 January 12`.
+> All integrations must migrate to **Identity Alliance** (`CrossDeviceVendorId`: `10` for Person, `11` for Household) specified in `RTBAttributes.AudienceTargeting.CrossDeviceVendorListForAudience`.
+
 > **TIP**: For cross-device targeting, The Trade Desk recommends using Identity Alliance.
 
 Identity Alliance is a performance-enhancing feature that enables you to make the most of cross-device targeting. Identity Alliance combines all available cross-device vendors into a single graph. With this unified graph, your targeting works from a more complete picture of each user's devices for each impression. Using Identity Alliance as your cross-device solution allows for expanded reach, better frequency management, improved attribution, and more accurate measurement across channels.
@@ -36,7 +41,7 @@ The following table lists the names and IDs of most commonly used cross-device g
 | Vendor Name | Vendor ID |
 | Identity Alliance | `10` (person)  
 `11` (household) |
-| Adbrain Device Graph | `1` |
+| Adbrain Device Graph | `1` (Deprecated - HTTP 410) |
 | Tapad Device Graph | `4` |
 | LiveRamp IdentityLink | `6` |
 
