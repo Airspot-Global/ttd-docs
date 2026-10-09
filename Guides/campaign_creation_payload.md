@@ -211,4 +211,25 @@ Kokai GraphQL and REST APIs handle campaign status differently depending on whet
 | `ARCHIVED` | N/A | `campaignsArchive` GraphQL mutation or `Availability: "Archived"` | Campaign is archived; read-only. |
 | `DRAFT` | *Local DB Only (no API call)* | *Local DB Only (no API call)* | Campaign is stored locally in Airspot; no DSP entity exists yet. |
 
+### 7.1 Ad Group Resolution Strategy for Child Variations
+
+When provisioning variations for a newly cloned or created campaign, resolving existing base ad groups must be resilient against schema or network nuances:
+
+1. **REST-First Discovery**: Query the campaign-scoped REST endpoint `POST /v3/adgroup/query/campaign` (`TtdRestService.listAdGroups`). This delivers high-throughput, structured responses without GraphQL query parsing overhead.
+2. **GraphQL Fallback with Strict `ID!` Scalar**: If REST is unavailable or returns an empty list, fall back to GraphQL:
+   ```graphql
+   query GetAdGroups($campaignId: ID!) {
+      campaign(id: $campaignId) {
+        adGroups {
+          nodes {
+            id
+            name
+          }
+        }
+      }
+   }
+   ```
+   > **CRITICAL**: The `$campaignId` variable must be declared as `ID!`. Declaring it as `String!` triggers GraphQL schema validation failure (`GRAPHQL_VALIDATION_FAILED`) because the root `campaign(id: ID!)` query field enforces scalar type compatibility.
+3. **Property Normalization**: Map both REST attributes (`AdGroupId`, `AdGroupName`) and GraphQL nodes (`id`, `name`) into a normalized entity shape prior to applying creative associations or targeting parameters.
+
 

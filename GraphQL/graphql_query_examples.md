@@ -45,6 +45,12 @@ query GetCampaignLifetimeMetricsExample($campaignId: ID!) {
 
 For more granular metrics, see [Look Up Campaign Performance Metrics by Date Range](#general).
 
+> **GRAPHQL SCALAR RULE (`ID!` vs `String!`)**:
+> In The Trade Desk GraphQL schema, root entity queries (such as `campaign(id: ID!)` or `adGroup(id: ID!)`) define the identifier argument as `ID!`.
+> According to the GraphQL specification, passing a variable declared as `String!` into a field argument expecting `ID!` is strictly prohibited and triggers a `GRAPHQL_VALIDATION_FAILED` error:
+> `Variable "$campaignId" of type "String!" used in position expecting type "ID!".`
+> Always define query variables as `($campaignId: ID!)` for root queries. In contrast, mutations taking input objects (such as `campaignUpdateSeed(input: CampaignUpdateSeedInput!)`) declare their ID fields inside the input type as `String!`.
+
 ### 
 
 Look Up Campaign Performance Metrics by Date Range[](#general)
