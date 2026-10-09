@@ -197,10 +197,12 @@ Kokai GraphQL and REST APIs handle campaign status differently depending on whet
    > - `PAUSED`: Campaign has current flight, but none of its ad groups are enabled.
    > - `LIVE`: Campaign has current flight with enabled ad groups.
    >
-   > To **pause** a campaign, query its child ad groups (`POST /v3/adgroup/query/advertiser` or GraphQL `campaign.adGroups`) and disable each ad group via `PUT /v3/adgroup` with `IsEnabled: false`.
+   > To **pause** a campaign, query its child ad groups directly via the campaign-scoped query (`POST /v3/adgroup/query/campaign` or GraphQL `campaign.adGroups`) and disable each ad group concurrently via `PUT /v3/adgroup` with `IsEnabled: false`.
    > To **resume** a campaign, enable its child ad groups via `PUT /v3/adgroup` with `IsEnabled: true`, and ensure the campaign container has `Availability: "Available"`.
    >
-   > Always sanitize the update payload: purge read-only audit fields (`CreatedAtUTC`, `LastUpdatedAtUTC`, `CreatedBy`, `LastUpdatedBy`, `AuditTrail`) and permanently deprecated attributes (`CtvTargetingAndAttribution` - sunset January 12, 2026; `UseIdentityAlliance`; `AdBrainHouseholdCrossDeviceEnabled*`) to prevent HTTP 410 Gone errors.
+   > **Container Update Bypass**: When only operational status (`active`) is toggled without changes to container fields (`CampaignName`, `Budget`, `StartDate`, `EndDate`), bypass `PUT /v3/campaign` entirely. This eliminates redundant roundtrips and avoids partner-tier permission failures.
+   >
+   > When updating container fields, always sanitize the update payload: purge read-only audit fields (`CreatedAtUTC`, `LastUpdatedAtUTC`, `CreatedBy`, `LastUpdatedBy`, `AuditTrail`), partner-restricted settings (`FrequencySettings` - which triggers `HTTP 403 Forbidden` if the partner seat lacks campaign-level capping; `PartnerCostPercentageFee`, `PartnerCPCFee`, `PurchaseOrderNumber`), and permanently deprecated attributes (`CtvTargetingAndAttribution` - sunset January 12, 2026; `UseIdentityAlliance`; `AdBrainHouseholdCrossDeviceEnabled*`).
 
 | Airspot Status | Initial Creation (GraphQL) | Status Updates (REST & Ad Groups) | Description |
 | :--- | :--- | :--- | :--- |

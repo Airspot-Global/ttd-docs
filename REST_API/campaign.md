@@ -953,14 +953,17 @@ Update an existing campaign.
 > Furthermore, on REST `PUT /v3/campaign`, `Availability` **strictly only accepts `"Available"` or `"Archived"`**. Passing `"Paused"` causes an HTTP 400 .NET deserialization error (`The value 'Paused' is not valid for this property`).
 > 
 > In The Trade Desk platform, operational pausing is driven by child ad groups:
-> - **Pause campaign**: Query child ad groups (`POST /v3/adgroup/query/advertiser`) and set `IsEnabled: false` via `PUT /v3/adgroup`. (TTD computes campaign state as `PAUSED`).
+> - **Pause campaign**: Query child ad groups (`POST /v3/adgroup/query/campaign`) and set `IsEnabled: false` via `PUT /v3/adgroup`. (TTD computes campaign state as `PAUSED`).
 > - **Resume campaign**: Set child ad groups to `IsEnabled: true` via `PUT /v3/adgroup`, keeping campaign `Availability: "Available"`.
+> - **Bypass Redundant Container Updates**: When only operational status (`active`) is toggled without changes to container fields (`CampaignName`, `Budget`, `StartDate`, `EndDate`), bypass `PUT /v3/campaign` entirely. This eliminates unnecessary roundtrips and prevents partner tier container validation failures.
 >
 > **Payload Sanitization Rules**:
 > TTD's API does not support a naive GET-then-PUT workflow without sanitization. The following attributes returned by `GET /v3/campaign` must be stripped before submitting `PUT /v3/campaign`:
 > 1. **Read-only audit fields**: `CreatedAtUTC`, `LastUpdatedAtUTC`, `CreatedBy`, `LastUpdatedBy`, `AuditTrail`.
-> 2. **Deprecated attributes**: `CtvTargetingAndAttribution` (sunset January 12, 2026), `UseIdentityAlliance`, `AdBrainHouseholdCrossDeviceEnabled*`.
-> 3. Preserve required campaign identity and structure attributes (`AdvertiserId`, `CampaignId`, `CampaignName`, `Objective`, `PrimaryGoal`, `Flight*`).
+> 2. **Partner-Restricted Settings**: `FrequencySettings` must be stripped. Certain partner seats do not have campaign-level frequency capping enabled. Submitting `FrequencySettings` (even with `null` caps) causes `HTTP 403 Forbidden: "Campaign FrequencySettings are not supported for this Partner."`.
+> 3. **Partner Fee & PO Fields**: Strip `PartnerCostPercentageFee`, `PartnerCPCFee`, and `PurchaseOrderNumber`.
+> 4. **Deprecated attributes**: `CtvTargetingAndAttribution` (sunset January 12, 2026), `UseIdentityAlliance`, `AdBrainHouseholdCrossDeviceEnabled*`.
+> 5. Preserve required campaign identity and structure attributes (`AdvertiserId`, `CampaignId`, `CampaignName`, `Objective`, `PrimaryGoal`, `Flight*`).
 
 put[/v3/campaign/bulksettings](/v3/portal/api/ref/put-campaign-bulksettings)deprecated
 
