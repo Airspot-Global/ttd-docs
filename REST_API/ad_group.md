@@ -974,11 +974,16 @@ This is a legacy endpoint. Use the [`adGroup` query](/v3/portal/api/gql-doc/ad-g
 
 The facets of Ad Groups that can be queried.
 
-put[/v3/adgroup/status](/v3/portal/api/ref/put-adgroup-status)legacy
+put[/v3/adgroup/status](/v3/portal/api/ref/put-adgroup-status)sunset
 
-This is a legacy endpoint. Use the [`adGroupUpdate` mutation](/v3/portal/api/gql-doc/ad-group-update) in GraphQL for improved performance and expanded functionality.
+> [!WARNING]
+> **Endpoint Sunset (HTTP 410 Gone as of May 11, 2026)**:
+> This legacy endpoint was permanently sunset on **May 11, 2026**. Requests to this endpoint return `HTTP 410 Gone`:
+> `"Access denied to legacy endpoint 'put_adgroup/status' since 2026 May 11."`
+> To enable or disable an ad group in REST, retrieve the ad group via [GET /v3/adgroup/{adGroupId}](/v3/portal/api/ref/get-adgroup-adgroupid), set `IsEnabled` to `true` or `false`, sanitize read-only and deprecated fields, and submit via [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup).
+> Alternatively, use the [`adGroupUpdate` mutation](/v3/portal/api/gql-doc/ad-group-update) in GraphQL.
 
-Enable or disable a given Ad Group.
+Enable or disable a given Ad Group (Sunset on May 11, 2026).
 
 get[/v3/adgroup/status/{adGroupId}](/v3/portal/api/ref/get-adgroup-status-adgroupid)legacy
 

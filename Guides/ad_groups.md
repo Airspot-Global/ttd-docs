@@ -1002,7 +1002,7 @@ The following table lists the common issues that prevent ad group spend and reco
 
 | Issue | Solution |
 | The ad group does not have at least one bid list of type `TargetList` or `BlockList` associated and enabled. | Use [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) and use the `AssociatedBidLists` property to associate and enable at least one bid list. |
-| The ad group is disabled. | Use [PUT /v3/adgroup/status](/v3/portal/api/ref/put-adgroup-status) and set the `IsEnabled` property to `true`. |
+| The ad group is disabled. | Use [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) and set the `IsEnabled` property to `true`. Note: Legacy `PUT /v3/adgroup/status` was permanently sunset on May 11, 2026 (HTTP 410 Gone). |
 | The ad group does not have creatives assigned. | Use [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) or the [adGroupAssociateCreative mutation](#associate-creative) to add at least one creative in the `CreativeIds` property. |
 | The ad group is associated with a bid list of type `TargetList` but the bid list is missing bid lines. | Use [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) to disassociate the bid list, or use [PUT /v3/bidlist](/v3/portal/api/ref/put-bidlist) to add bid lines to the bid list. |
 | The ad group cannot have additional flights when updating a campaign through the platform UI. | To remove flights from an ad group, you must use the platform UI.  

@@ -281,7 +281,7 @@ The following table lists the endpoints that you can use to update ad group deta
 | Task | Endpoint | Notes |
 | Update the details of a specific ad group. | [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) | When updating ad groups with list objects, such as `AssociatedBidLists` and `CreativeIds`, each list is replaced with the new content provided.  
 **IMPORTANT**: To avoid overwriting any lists, retrieve the current state of these objects using the [GET /v3/adgroup/{adGroupId}](/v3/portal/api/ref/get-adgroup-adgroupid) endpoint and include the entire list, including changes, in the PUT request. |
-| Enable or disable a specific ad group. | [PUT /v3/adgroup/status](/v3/portal/api/ref/put-adgroup-status) | To check the current ad group status, use the [GET /v3/adgroup/status/{adGroupId}](/v3/portal/api/ref/get-adgroup-status-adgroupid) endpoint. |
+| Enable or disable a specific ad group. | [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) | To enable or disable an ad group, retrieve its state via GET and set the `IsEnabled` property to `true` or `false` in a `PUT /v3/adgroup` call. Legacy `PUT /v3/adgroup/status` was permanently sunset on May 11, 2026 (HTTP 410 Gone). |
 
 ## 
 
@@ -306,7 +306,7 @@ The following table lists the common issues that prevent ad group spend and reco
 
 | Issue | Solution |
 | The ad group does not have at least one bid list of type `TargetList` or `BlockList` associated and enabled. | Use [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) and use the `AssociatedBidLists` property to associate and enable at least one bid list. |
-| The ad group is disabled. | Use [PUT /v3/adgroup/status](/v3/portal/api/ref/put-adgroup-status) and set the `IsEnabled` property to `true`. |
+| The ad group is disabled. | Use [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) and set the `IsEnabled` property to `true`. Note: Legacy `PUT /v3/adgroup/status` was permanently sunset on May 11, 2026 (HTTP 410 Gone). |
 | The ad group does not have creatives assigned. | Use [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) to add at least one creative in the `CreativeIds` property. |
 | The ad group is associated with a bid list of type `TargetList`, and the bid list does not contain bid lines. | Use [PUT /v3/adgroup](/v3/portal/api/ref/put-adgroup) to disassociate the bid list, or use [PUT /v3/bidlist](/v3/portal/api/ref/put-bidlist) to add bid lines to the bid list. |
 | The ad group has additional flights after updating a campaign in the platform UI. | To remove flights from an ad group, you must use the platform UI.  
