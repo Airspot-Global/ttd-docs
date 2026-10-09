@@ -287,7 +287,7 @@ Here's what you need to know about seeds in campaigns:
 Here's an example of a `campaignUpdateSeed` mutation that attaches a seed to a campaign:
 
 ```graphql
-mutation CampaignUpdateSeed($campaignId: ID!, $seedId: ID!) {
+mutation CampaignUpdateSeed($campaignId: String!, $seedId: String!) {
   campaignUpdateSeed(
     input: {
       campaignId: $campaignId
@@ -304,6 +304,11 @@ mutation CampaignUpdateSeed($campaignId: ID!, $seedId: ID!) {
   }
 }
 ```
+
+> [!NOTE]
+> **Variable Type Requirement (`String!`)**:
+> The `CampaignUpdateSeedInput` input type defines `campaignId` and `seedId` as non-nullable `String!` scalars.
+> Using `$campaignId: ID!, $seedId: ID!` triggers `GRAPHQL_VALIDATION_FAILED: String cannot represent value`. Always declare variables as `$campaignId: String!, $seedId: String!`.
 
 ## 
 

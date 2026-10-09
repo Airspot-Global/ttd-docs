@@ -908,20 +908,25 @@ post[/v3/adgroup](/v3/portal/api/ref/post-adgroup)
 Create a new Ad Group.
 
 > [!WARNING]
-> **Field Deprecation (HTTP 410 Gone as of January 12, 2026)**:
-> The attribute `AdBrainHouseholdCrossDeviceEnabled` (both at top-level and inside `RTBAttributes`) was deprecated on 2026 January 12.
-> Creating an ad group with this attribute will fail with `HTTP 410 Gone: AdBrainHouseholdCrossDeviceEnabled was deprecated on 2026 January 12`.
+> **Field Deprecation (HTTP 410 Gone / HTTP 400 Bad Request)**:
+> Both legacy boolean flags `UseIdentityAlliance` and `AdBrainHouseholdCrossDeviceEnabled` (at root level and nested in `RTBAttributes`) are permanently deprecated (AdBrainHouseholdCrossDeviceEnabled was deprecated on 2026 January 12).
+> Creating an ad group with either flag will fail with `HTTP 400 Bad Request`:
+> `"The fields 'UseIdentityAlliance' and 'AdBrainHouseholdCrossDeviceEnabled' are deprecated. Please use 'RTBAttributes.AudienceTargeting.CrossDeviceVendorListForAudience' instead."`
 > For cross-device targeting, specify **Identity Alliance** (`CrossDeviceVendorId: 10` for Person or `11` for Household) inside `RTBAttributes.AudienceTargeting.CrossDeviceVendorListForAudience`.
+>
+> **Flight Budget Exclusivity**:
+> When `RTBAttributes.BudgetSettings.AdGroupFlights` is specified, top-level ad group budget fields (`Budget`, `BudgetInImpressions`, `DailyBudget`, `DailyBudgetInImpressions`, and `AllocationType`) must be omitted. Specifying both triggers `HTTP 400 Bad Request`:
+> `"The request specifies both flight details and at least one of the budget attributes at the ad group budget level, which is not permitted."`
 
 put[/v3/adgroup](/v3/portal/api/ref/put-adgroup)
 
 Update an existing Ad Group.
 
 > [!WARNING]
-> **Field Deprecation (HTTP 410 Gone as of January 12, 2026)**:
-> The attribute `AdBrainHouseholdCrossDeviceEnabled` (both at top-level and inside `RTBAttributes`) was deprecated on 2026 January 12.
-> Updating an ad group with this attribute will fail with `HTTP 410 Gone: AdBrainHouseholdCrossDeviceEnabled was deprecated on 2026 January 12`.
-> When performing partial updates to ad groups, ensure read-only and deprecated fields are stripped from the payload.
+> **Field Deprecation (HTTP 410 Gone / HTTP 400 Bad Request)**:
+> Both legacy boolean flags `UseIdentityAlliance` and `AdBrainHouseholdCrossDeviceEnabled` are permanently deprecated and must be stripped before updating an ad group.
+> If the ad group is associated with campaign flights (`RTBAttributes.BudgetSettings.AdGroupFlights`), strip top-level `Budget` and `DailyBudget` fields before submitting the update.
+> Ensure read-only GET fields (`CreatedAtUTC`, `LastUpdatedAtUTC`, `CreatedBy`, `LastUpdatedBy`, `AuditTrail`) are stripped from the payload.
 
 get[/v3/adgroup/{adGroupId}](/v3/portal/api/ref/get-adgroup-adgroupid)deprecated
 

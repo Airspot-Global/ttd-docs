@@ -956,7 +956,7 @@ put[/v3/campaign/bulksettings](/v3/portal/api/ref/put-campaign-bulksettings)depr
 > Do not use this endpoint for associating seeds with campaigns.
 > Instead, use the canonical Kokai GraphQL [`campaignUpdateSeed` mutation](../Guides/seeds.md#attach-to-campaign):
 > ```graphql
-> mutation CampaignUpdateSeed($campaignId: ID!, $seedId: ID!) {
+> mutation CampaignUpdateSeed($campaignId: String!, $seedId: String!) {
 >   campaignUpdateSeed(input: { campaignId: $campaignId, seedId: $seedId }) {
 >     data { id }
 >     userErrors { message field }
