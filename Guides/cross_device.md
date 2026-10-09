@@ -11,7 +11,7 @@ Cross-device targeting enables you to scale your high-value audiences across dev
 
 > [!WARNING]
 > **Deprecation Notice (January 12, 2026)**:
-> The legacy field `AdBrainHouseholdCrossDeviceEnabled` was deprecated on 2026 January 12. Any API requests to create or update ad groups containing this field fail with `HTTP 410 Gone: AdBrainHouseholdCrossDeviceEnabled was deprecated on 2026 January 12`.
+> The legacy fields `AdBrainHouseholdCrossDeviceEnabled` and `CtvTargetingAndAttribution` were permanently deprecated on 2026 January 12. Any API requests to create or update campaigns or ad groups containing these fields fail with `HTTP 410 Gone: [Field] was deprecated on 2026 January 12`.
 > All integrations must migrate to **Identity Alliance** (`CrossDeviceVendorId`: `10` for Person, `11` for Household) specified in `RTBAttributes.AudienceTargeting.CrossDeviceVendorListForAudience`.
 
 > **TIP**: For cross-device targeting, The Trade Desk recommends using Identity Alliance.

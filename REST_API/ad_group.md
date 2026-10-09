@@ -927,6 +927,10 @@ Update an existing Ad Group.
 > Both legacy boolean flags `UseIdentityAlliance` and `AdBrainHouseholdCrossDeviceEnabled` are permanently deprecated and must be stripped before updating an ad group.
 > If the ad group is associated with campaign flights (`RTBAttributes.BudgetSettings.AdGroupFlights`), strip top-level `Budget` and `DailyBudget` fields before submitting the update.
 > Ensure read-only GET fields (`CreatedAtUTC`, `LastUpdatedAtUTC`, `CreatedBy`, `LastUpdatedBy`, `AuditTrail`) are stripped from the payload.
+>
+> **Endpoint Deprecation: `put_adgroup/status` (HTTP 410 Gone)**:
+> The legacy dedicated status endpoint `put /v3/adgroup/status` was permanently decommissioned on 2026 May 11 (`HTTP 410 Gone: Access denied to legacy endpoint 'put_adgroup/status' since 2026 May 11`).
+> To pause or resume an ad group, use the full update endpoint `PUT /v3/adgroup` with `Availability: "Available" | "Paused"`.
 
 get[/v3/adgroup/{adGroupId}](/v3/portal/api/ref/get-adgroup-adgroupid)deprecated
 

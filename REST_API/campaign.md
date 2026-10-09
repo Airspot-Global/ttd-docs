@@ -944,9 +944,23 @@ Create a new campaign.
 
 put[/v3/campaign](/v3/portal/api/ref/put-campaign)legacy
 
-This is a legacy endpoint. Use the [`campaignUpdate` mutation](/v3/portal/api/gql-doc/campaign-update) in GraphQL for improved performance and expanded functionality.
-
 Update an existing campaign.
+
+> [!IMPORTANT]
+> **Campaign Status & `Availability` Constraints**:
+> The Kokai GraphQL `campaignUpdate` mutation accepts input of type `CampaignUpdateInput`, which strictly does **not** define a `status` or `availability` field (`Field "status" is not defined by type "CampaignUpdateInput"`).
+> 
+> Furthermore, on REST `PUT /v3/campaign`, `Availability` **strictly only accepts `"Available"` or `"Archived"`**. Passing `"Paused"` causes an HTTP 400 .NET deserialization error (`The value 'Paused' is not valid for this property`).
+> 
+> In The Trade Desk platform, operational pausing is driven by child ad groups:
+> - **Pause campaign**: Query child ad groups (`POST /v3/adgroup/query/advertiser`) and set `IsEnabled: false` via `PUT /v3/adgroup`. (TTD computes campaign state as `PAUSED`).
+> - **Resume campaign**: Set child ad groups to `IsEnabled: true` via `PUT /v3/adgroup`, keeping campaign `Availability: "Available"`.
+>
+> **Payload Sanitization Rules**:
+> TTD's API does not support a naive GET-then-PUT workflow without sanitization. The following attributes returned by `GET /v3/campaign` must be stripped before submitting `PUT /v3/campaign`:
+> 1. **Read-only audit fields**: `CreatedAtUTC`, `LastUpdatedAtUTC`, `CreatedBy`, `LastUpdatedBy`, `AuditTrail`.
+> 2. **Deprecated attributes**: `CtvTargetingAndAttribution` (sunset January 12, 2026), `UseIdentityAlliance`, `AdBrainHouseholdCrossDeviceEnabled*`.
+> 3. Preserve required campaign identity and structure attributes (`AdvertiserId`, `CampaignId`, `CampaignName`, `Objective`, `PrimaryGoal`, `Flight*`).
 
 put[/v3/campaign/bulksettings](/v3/portal/api/ref/put-campaign-bulksettings)deprecated
 

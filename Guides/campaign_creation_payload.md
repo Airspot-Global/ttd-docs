@@ -179,11 +179,34 @@ In the Kokai campaign provisioning workflow:
 
 ### Campaign Lifecycle Status & Availability Normalization
 
-Kokai GraphQL and legacy REST use different enumerations for campaign lifecycle state. Note that **`ACTIVE` is not a valid enum value in Kokai GraphQL**; you must specify `AVAILABLE`.
+Kokai GraphQL and REST APIs handle campaign status differently depending on whether you are creating or updating an existing campaign:
 
-| Airspot Status | Kokai GraphQL Mutation | TTD REST Field | Description |
+1. **Initial Creation**: In `campaignCreate`, status can be passed as `AVAILABLE` or `PAUSED`. (`ACTIVE` is not a valid enum value in Kokai GraphQL).
+2. **Status Updates (Pause / Resume)**:
+   > [!WARNING]
+   > **`CampaignUpdateInput` Has No Status Field**:
+   > In Kokai GraphQL, `campaignUpdate` mutation takes `CampaignUpdateInput`, which **strictly does not define a `status` or `availability` field** (`GRAPHQL_VALIDATION_FAILED: Field "status" is not defined by type "CampaignUpdateInput"`).
+   >
+   > **TTD REST `Availability` Constraint**:
+   > On REST `PUT /v3/campaign`, the `Availability` field represents entity persistence and **only accepts `"Available"` or `"Archived"`**.
+   > Passing `"Paused"` causes an HTTP 400 .NET deserialization error:
+   > `"Error deserializing the request as JSON: The value 'Paused' is not valid for this property."`
+   >
+   > **Canonical Status Update Procedure via Child Ad Groups**:
+   > In The Trade Desk, a campaign's bidding status is an aggregate state driven by its child ad groups:
+   > - `PAUSED`: Campaign has current flight, but none of its ad groups are enabled.
+   > - `LIVE`: Campaign has current flight with enabled ad groups.
+   >
+   > To **pause** a campaign, query its child ad groups (`POST /v3/adgroup/query/advertiser` or GraphQL `campaign.adGroups`) and disable each ad group via `PUT /v3/adgroup` with `IsEnabled: false`.
+   > To **resume** a campaign, enable its child ad groups via `PUT /v3/adgroup` with `IsEnabled: true`, and ensure the campaign container has `Availability: "Available"`.
+   >
+   > Always sanitize the update payload: purge read-only audit fields (`CreatedAtUTC`, `LastUpdatedAtUTC`, `CreatedBy`, `LastUpdatedBy`, `AuditTrail`) and permanently deprecated attributes (`CtvTargetingAndAttribution` - sunset January 12, 2026; `UseIdentityAlliance`; `AdBrainHouseholdCrossDeviceEnabled*`) to prevent HTTP 410 Gone errors.
+
+| Airspot Status | Initial Creation (GraphQL) | Status Updates (REST & Ad Groups) | Description |
 | :--- | :--- | :--- | :--- |
-| `ACTIVE` | `status: AVAILABLE` | `Availability: "Available"` | Campaign is active and bidding across ad groups. |
-| `PAUSED` | `status: PAUSED` | `Availability: "Paused"` | Campaign is paused; bidding is halted. |
-| `ARCHIVED` | `campaignsArchive(input: { ids })` | `Availability: "Archived"` | Campaign is archived; read-only. |
+| `ACTIVE` | `status: AVAILABLE` | `Availability: "Available"` + Child Ad Groups `IsEnabled: true` | Campaign is active and bidding across ad groups. |
+| `PAUSED` | `status: PAUSED` | `Availability: "Available"` + Child Ad Groups `IsEnabled: false` | Campaign is paused; bidding is halted by disabling child ad groups. |
+| `ARCHIVED` | N/A | `campaignsArchive` GraphQL mutation or `Availability: "Archived"` | Campaign is archived; read-only. |
 | `DRAFT` | *Local DB Only (no API call)* | *Local DB Only (no API call)* | Campaign is stored locally in Airspot; no DSP entity exists yet. |
+
+
