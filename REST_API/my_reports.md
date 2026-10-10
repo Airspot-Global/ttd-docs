@@ -2,6 +2,9 @@
 
 - Source: https://partner.thetradedesk.com/v3/portal/api/area/My%20Reports
 - Category: REST_API
+- Architectural Guide: [Reporting Best Practices & Architecture Guide](../Guides/reporting_best_practices.md)
+
+> **Architecture Note**: My Reports is The Trade Desk's asynchronous batch reporting engine. For real-time, interactive UI dashboards, platforms use the synchronous GraphQL Tile API (`SwedishCampaignReporting`). When synchronous Tile API queries experience publisher indexing delays, consumers should apply non-destructive stale-while-revalidate caching and preserve historical publisher dimensions as documented in [Guides/reporting_best_practices.md](../Guides/reporting_best_practices.md).
 
 ---
 
