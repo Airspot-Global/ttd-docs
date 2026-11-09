@@ -833,6 +833,8 @@ get[/v3/datagroup/{dataGroupId}/{geoForCounts}](/v3/portal/api/ref/get-datagroup
 
 Get an existing Data Group, and filter the returned counts by geo.
 
+> **Airspot note (observed 2026-11-09, sandbox; not in TTD's official docs):** **Retired.** `GET /v3/datagroup/{dataGroupId}/{geoForCounts}` returns HTTP 410 with the body "Access denied to legacy endpoint 'get_datagroup/{dataGroupId}/{geoForCounts}' since 2026 August 03." Do not build on it. For geo-filtered counts, the audience variant `GET /v3/audience/{audienceId}/{geoForCounts}` still works (see the Airspot note in `REST_API/audience.md`).
+
 get[/v3/datagroup/name/{dataGroupId}](/v3/portal/api/ref/get-datagroup-name-datagroupid)
 
 Get the identifier and name for an DataGroup based on identifier

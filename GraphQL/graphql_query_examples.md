@@ -215,6 +215,10 @@ Miscellaneous Campaign Data Queries[](#misc)
 
 The following sections provide GraphQL queries you can use to look up campaign data and key metrics such as projected spend, forecasted spend, and relevance.
 
+> **Airspot note (observed 2026-11-09, sandbox + production; not in TTD's prose docs, only in the schema):**
+> - `campaign { reporting { reachAndFrequencyReporting { nodes { metrics { ... } } } } }` also accepts `uniquePersons`, `frequencyPerPerson` and `matchedPersonImpressions`, next to `uniqueHouseholds`, `frequencyPerHousehold` and `matchedHouseholdImpressions`. The query validates in both environments.
+> - In production, `uniquePersons` ÷ `uniqueHouseholds` was about 1.03–1.04 for the campaigns that returned data. Sandbox campaigns return no reach nodes because there is no delivery.
+
 ### 
 
 Look Up Campaign Data[](#campaign-shopping-cart)

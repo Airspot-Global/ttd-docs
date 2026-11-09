@@ -922,6 +922,8 @@ This is a legacy endpoint. Use the [`thirdPartyDatas` query](/v3/portal/api/gql-
 Retrieve third-party data that matches the request. For details about how to maximize performance and reduce likelihood of timeouts, see [Rate Limits](/v3/portal/api/doc/RateLimits).  
 **IMPORTANT**: Segments are returned only if either active ID or received ID count is not `null` and is greater than zero. For details on active and received IDs, see [Unique ID Counting Methodologies](/v3/portal/api/doc/IdCountingMethodologies).
 
+> **Airspot note (observed 2026-11-09, sandbox + production; not in TTD's official docs):** This endpoint returned HTTP 500 in the sandbox. Its GraphQL replacement was not usable for us either: the root `thirdPartyDatas` query gave `INTERNAL_SERVER_ERROR` in the sandbox, and `partner { thirdPartyData }` timed out after 60 seconds in both sandbox and production.
+
 get[/v3/dmp/thirdparty/facets/{advertiserId}](/v3/portal/api/ref/get-dmp-thirdparty-facets-advertiserid)legacy
 
 This is a legacy endpoint. Use the [`thirdPartyDatas` query](/v3/portal/api/gql-doc/third-party-datas) with filtering in GraphQL for improved performance and expanded functionality.

@@ -279,6 +279,11 @@ Look Up Advertiser Data Segments[](#advertiser-data-segment-query)
 
 The following GraphQL query retrieves advertiser first-party data segments. It is the equivalent of the `dmp/firstparty/advertiser` REST endpoint.
 
+> **Airspot note (observed 2026-11-09, sandbox + production; not in TTD's official docs):**
+> - `firstPartyData` exists only on `advertiser`. `partner { firstPartyData }` fails with `GRAPHQL_VALIDATION_FAILED`.
+> - In the sandbox, `activeUniques.householdCount` and `personsCount` came back `null` (and the ID counts `0`) for tracking-tag and creative segments.
+> - `Audience.activeUniques` and the counts on `advertiser { audiences }` are global, not per country, in production. For a single country, use `GET /v3/audience/{audienceId}/{CountryName}` (see the Airspot note in `REST_API/audience.md`).
+
 > **TIP**: When querying for as much first-party data as possible, to minimize query complexity, avoid requesting the `totalCount` field.
 
 query GetFirstPartyDataExample($advertiserId: ID!) {

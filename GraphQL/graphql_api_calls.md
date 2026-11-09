@@ -27,6 +27,12 @@ The following table lists the URLs for the environments that you can use.
 
 > **IMPORTANT**: Complexity and rate limits apply to all platform GraphQL API calls. For details, see [GraphQL API Rate Limits](/v3/portal/resources/doc/GqlApiRateLimits) and [GraphQL API Errors and Complexity Limits](/v3/portal/resources/doc/GqlResponses).
 
+> **Airspot note (observed 2026-11-09, sandbox + production; not in TTD's official docs):**
+> - GraphQL responses carry the headers `X-RateLimit-Limit-Two-Minutes-path-USER-ID: 800`, `X-RateLimit-Remaining-Two-Minutes-path-USER-ID`, `RateLimit-Limit-path-USER-ID`, `RateLimit-Remaining-path-USER-ID` and `RateLimit-Reset-path-USER-ID` (seconds until reset). That is 800 requests per two minutes per user per path, shared by every service that uses the same login.
+> - `partner { thirdPartyData }` timed out after 60 seconds in both production and the sandbox.
+> - The root `thirdPartyDatas` query returned `INTERNAL_SERVER_ERROR` in the sandbox.
+> - `partner { firstPartyData }` does not exist (`GRAPHQL_VALIDATION_FAILED`). First-party data is only on `advertiser { firstPartyData }`.
+
 Although you can use any tool of your choice to execute a GraphQL call, the following sections explain how to do so in [Postman](#postman) and [Python](#python).
 
 ## 

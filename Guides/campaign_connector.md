@@ -131,3 +131,7 @@ When a request is successful, the API will return an HTTP response with a 200 st
 Rate Limits[](#rate-limits)
 
 To ensure sufficient capacity at all times for all our partners, we have implemented rate limits across our API endpoints. If limits are exceeded, the API will return a 429 response code. The proper behavior for handling 429 errors is using an exponential back-off policy until you are able to successfully complete a transaction. For details, see [Rate Limits](/v3/portal/api/doc/RateLimits).
+
+> **Airspot note (observed 2026-11-09, sandbox + production; not in TTD's official docs):**
+> - GraphQL responses expose the limit as `X-RateLimit-Limit-Two-Minutes-path-USER-ID: 800`, plus `X-RateLimit-Remaining-Two-Minutes-path-USER-ID` and `RateLimit-Limit/Remaining/Reset-path-USER-ID` (reset in seconds).
+> - REST responses, including `POST /v3/universalforecasting/generate` and `GET /v3/audience/...`, carry no rate-limit headers.

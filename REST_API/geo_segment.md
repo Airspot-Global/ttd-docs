@@ -807,6 +807,8 @@ post[/v3/geosegment/query/advertiser](/v3/portal/api/ref/post-geosegment-query-a
 
 Query Geo Segments for use by an Advertiser
 
+> **Airspot note (observed 2026-11-09, sandbox + production; not in TTD's official docs):** In production, a request body with `AdvertiserId`, `SearchTerms: ["Sweden"]`, `GeoSegmentFilter: "Country"`, `PageStartIndex` and `PageSize` works. Each item in `Result` has `GeoSegmentId`, `GeoSegmentName`, `Description`, `GeoLocationType` and `IsStandard`. The same request returned HTTP 500 in the sandbox, with both `GeoSegmentFilter: "Country"` and `"All"`.
+
 get[/v3/geosegment/query/facets](/v3/portal/api/ref/get-geosegment-query-facets)
 
 Get the facets of Geo Segments that can be queried.
