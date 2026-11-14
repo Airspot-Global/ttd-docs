@@ -1,15 +1,17 @@
 # Platform API Update Archives
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/PlatformArchives
+- Source: https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/PlatformArchives
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/PlatformArchives (retired)
+- Retrieved: 2026-11-14
 - Category: Guides
 
 ---
 
-# Platform API Update Archives
+# Update archives for advertisers
 
 This page provides links to archived release notes and upgrade schedules that document changes to the Platform API over the past two years.
 
-> **NOTE**: These are all dated archives. For the most up-to-date information, see [Platform API Release Notes](/v3/portal/api/doc/ReleaseNotes) and [Platform API Upcoming Changes and Schedules](/v3/portal/api/doc/UpgradeSupport).
+> **NOTE**: These are all dated archives. For the most up-to-date information, see Advertiser release notes and Upcoming API changes for advertisers.
 
-*   For archived feature changes, upgrade guides, and migration, see [Platform API Upgrade Support Archives](/v3/portal/api/doc/UpgradeSupportArchives).
-*   For archived release notes, see [Platform API Release Notes Archives](/v3/portal/api/doc/ReleaseNotesArchives).
+- For archived feature changes, upgrade guides, and migration, see Archived API changes for advertisers.
+- For archived release notes, see Advertiser release notes archives.

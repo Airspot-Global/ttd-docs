@@ -1,9 +1,13 @@
 # Trading Modes (Closed Beta)
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/TradingModes
+- Source: removed from TTD docs
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/TradingModes (retired)
+- Retrieved: 2026-11-14 (removal checked; body is the pre-refresh copy)
 - Category: Guides
 
 ---
+
+> **Removed from TTD docs (checked 2026-11-14).** This page is no longer on TTD's documentation site. The text below is the pre-refresh copy, kept because Airspot code or notes may cite it. Nearest live page: none
 
 # Trading Modes (Closed Beta)
 
@@ -28,7 +32,7 @@ Prerequisites[](#prereqs)
 To be able to use Performance Mode, the following prerequisites must be met:
 
  The Terms of Service is accepted in the platform UI.  
- [Audience Unlimited](/v3/portal/api/doc/AudienceUnlimited) is enabled.  
+ [Audience Unlimited](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AudienceUnlimited) is enabled.  
 
 Here's what you need to know about these prerequisites:
 
@@ -48,7 +52,7 @@ Here's what you need to know about the features controlled by Trading Modes:
 The following table lists the features affected by Trading Modes and how they are applied under each mode.
 
 | Feature | Description | Performance Mode | Control Mode | Notes |
-| [Audience Unlimited](/v3/portal/api/doc/AudienceUnlimited) | Accesses premium data segments at a predictable cost to simplify planning and boost performance. | Always on (Full tier) | Configurable, available options include the following:  
+| [Audience Unlimited](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AudienceUnlimited) | Accesses premium data segments at a predictable cost to simplify planning and boost performance. | Always on (Full tier) | Configurable, available options include the following:  
 
 *   `FULL` (default)
 *   `LITE`
@@ -57,13 +61,13 @@ The following table lists the features affected by Trading Modes and how they ar
  | 
 
 *   This fee-based feature (complimentary for 12 months in the closed beta) is required for Performance Mode.
-*   In Control Mode, additional platform rate fees apply (3.3% or 4.4% of spend). For details, see [Audience Unlimited Tiers](/v3/portal/api/doc/AudienceUnlimited#au-tiers).
+*   In Control Mode, additional platform rate fees apply (3.3% or 4.4% of spend). For details, see [Audience Unlimited Tiers](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AudienceUnlimited#au-tiers).
 *   Measurement is included with Audience Unlimited with participating data providers.
 
  |
-| [Predictive Clearing](/v3/portal/api/doc/PredictiveClearing) | Adjusts bids in real time to market conditions, lowering CPMs while maintaining results. | Always on | On by default, configurable | This is a fee-based feature. |
-| [Prism](/v3/portal/api/doc/Prism) | Filters out low-value impressions to avoid wasteful bidding. | Always on | On by default, configurable | Prism might not be available for advertisers working with sensitive categories (unless Prism appears for them as an option in the platform UI). |
-| [Identity Alliance](/v3/portal/api/doc/CrossDeviceTargeting) | Enhances cross-device targeting and measurement, improving campaign efficiency and performance. | Always on | On by default, configurable | This is a fee-based feature. |
+| [Predictive Clearing](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/PredictiveClearing) | Adjusts bids in real time to market conditions, lowering CPMs while maintaining results. | Always on | On by default, configurable | This is a fee-based feature. |
+| [Prism](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Prism) | Filters out low-value impressions to avoid wasteful bidding. | Always on | On by default, configurable | Prism might not be available for advertisers working with sensitive categories (unless Prism appears for them as an option in the platform UI). |
+| [Identity Alliance](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CrossDeviceTargeting) | Enhances cross-device targeting and measurement, improving campaign efficiency and performance. | Always on | On by default, configurable | This is a fee-based feature. |
 | Quality Alliance | Prioritizes high-quality impressions to improve viewability and completion rates. | Always on | On by default, configurable | This is a fee-based feature. |
 | [Koa Optimizations](/v3/portal/api/doc/KoaOptimizationsTM) | Uses AI to optimize bids and budgets for stronger results with less manual effort. | Always on (all dimensions) | Always on for the `Geography` and `Publisher` dimensions, configurable for all other dimensions | The `Publisher` dimension replaced `Site`. |
 | [Price Optimizations](#price-optimizations) | Affects how Koa manages bid prices, volume control, and pacing for your campaigns. | Always on (`PERFORMANCE_DRIVEN`) | Configurable, available options include the following:
@@ -116,7 +120,7 @@ The following table lists all tasks related to Trading Modes.
 
 Create a New Campaign and Set the Trading Mode[](#create)
 
-To set the trading mode for a new campaign you create, use the GraphQL `campaignCreate` mutation and set the `tradingModeSettingsInput` field to either `PERFORMANCE` (recommended) or `CONTROL`. For full details and examples, see [Campaign Create](/v3/portal/api/doc/CampaignCreate).
+To set the trading mode for a new campaign you create, use the GraphQL `campaignCreate` mutation and set the `tradingModeSettingsInput` field to either `PERFORMANCE` (recommended) or `CONTROL`. For full details and examples, see [Campaign Create](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCreate).
 
 mutation {
 
@@ -254,11 +258,11 @@ Clone an Existing Campaign and Set the Trading Mode[](#clone)
 
 Here's what you need to know about Trading Modes during the campaign cloning process:
 
-*   You can set the trading mode during the campaign [cloning process](/v3/portal/api/doc/CampaignCloning).
+*   You can set the trading mode during the campaign [cloning process](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCloning).
 *   If you don't set the trading during the campaign cloning process, the trading mode of the campaign clone is set to Performance.
 *   If you clone a campaign that does not have a trading mode, the new campaign trading mode is set to Performance.
 
-To clone an existing campaign and set the trading mode, use the `campaignClonesCreate` mutation. This submits a job that starts the cloning process. For details, see [Clone Campaigns](/v3/portal/api/doc/CampaignCloning).
+To clone an existing campaign and set the trading mode, use the `campaignClonesCreate` mutation. This submits a job that starts the cloning process. For details, see [Clone Campaigns](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCloning).
 
 mutation {
 
@@ -324,7 +328,7 @@ How does Trading Modes affect my budget?
 
 Trading Modes does not affect how you allocate your budgets to your campaigns.
 
-For the best results in Performance Mode, The Trade Desk recommends setting up a fully fluid budget. This enables the platform to automatically direct spend to the best-performing ad groups and bid on the most valuable impressions. With this setup, you’ll have the best chance to spend your full budget and achieve your campaign goals and KPIs. For details about fluid budgets, see the [Budget Allocation](/v3/portal/api/doc/CampaignBudgets).
+For the best results in Performance Mode, The Trade Desk recommends setting up a fully fluid budget. This enables the platform to automatically direct spend to the best-performing ad groups and bid on the most valuable impressions. With this setup, you’ll have the best chance to spend your full budget and achieve your campaign goals and KPIs. For details about fluid budgets, see the [Budget Allocation](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignBudgets).
 
 If you set the [price optimization option](#price-optimizations) to `PRIORITY_DRIVEN`, ad group spend priorities use waterfall allocation.
 
@@ -344,13 +348,13 @@ The trading mode for your campaign will be set to Control Mode with all other ap
 
 What happens when I apply my own bid factors in campaigns with a trading mode?
 
-If you apply a bid factor to a specific dimension, the platform applies only the bid factor you set and does not apply a Koa bid factor. For details about bid factors, see [Bid Lists](/v3/portal/api/doc/BidList).
+If you apply a bid factor to a specific dimension, the platform applies only the bid factor you set and does not apply a Koa bid factor. For details about bid factors, see [Bid Lists](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/BidList).
 
 ### 
 
 Does Performance Mode turn on Quality Alliance?
 
-Not during the closed beta. In future releases, however, Quality Alliance will be turned on after you set a campaign to Performance Mode. Stay tuned for [future announcements](/v3/portal/api/doc/ReleaseNotes)!
+Not during the closed beta. In future releases, however, Quality Alliance will be turned on after you set a campaign to Performance Mode. Stay tuned for [future announcements](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/ReleaseNotes)!
 
 ### 
 
@@ -366,7 +370,7 @@ Yes, however, you can set the trading mode of existing campaigns only to Control
 
 To set the trading mode for an existing campaign, use the GraphQL `campaignUpdate` mutation and set the `tradingModeSettingsInput` field to `CONTROL`.
 
-> **TIP**: You can set the trading mode for multiple campaigns at once by running the `campaignUpdate` mutation as a [bulk operation](/v3/portal/api/doc/GqlBulkOperations).
+> **TIP**: You can set the trading mode for multiple campaigns at once by running the `campaignUpdate` mutation as a [bulk operation](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/GqlBulkOperations).
 
 mutation {
 

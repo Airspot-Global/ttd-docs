@@ -1,0 +1,124 @@
+# POST /v3/audience/insights/privatecontract → Audience.privateContractInsights
+
+- Source: https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/doc/post-v3-audience-insights-privatecontract
+- Retrieved: 2026-11-14
+- Category: REST_API
+
+---
+
+# POST /v3/audience/insights/privatecontract → Audience.privateContractInsights
+
+## Overview
+
+| Property | Value |
+| --- | --- |
+| REST endpoint | `POST /v3/audience/insights/privatecontract` |
+| GraphQL query | `Audience.privateContractInsights` |
+| Return type | `PrivateContractInsightsConnection` |
+
+## Request and filter field mapping
+
+| REST field | GraphQL argument | GraphQL type | Required | Notes |
+| --- | --- | --- | --- | --- |
+| `AudienceId` | Parent: `Query.audience(id: ID!)` | N/A | Required | Enter via `audience(id: "<audience-id>") { privateContractInsights(...) }`. |
+| `GeoSegmentIds` | `filter.geoSegmentIds` | [ID!]! | Required | `AudiencePrivateContractInsightsParamInput`. |
+| `UseMockData` | N/A | N/A | N/A | **Not currently available in GraphQL** |
+| `PageStartIndex` | `after` | String | Optional | N/A |
+| `PageSize` | `first` | Int | Optional | N/A |
+
+## Response field mapping
+
+| REST response field | GraphQL field | GraphQL type | Nullable | Notes |
+| --- | --- | --- | --- | --- |
+| `Result` | `nodes` | [PrivateContractInsight!] | Nullable | N/A |
+| `Result.PrivateContractId` | `nodes.privateContractId` | ID! | Not nullable | N/A |
+| `Result.ContractName` | `nodes.contractName` | String! | Not nullable | N/A |
+| `Result.IsFirstParty` | `nodes.isFirstParty` | Boolean! | Not nullable | N/A |
+| `Result.PublisherIds` | `nodes.publishers.id` | [ID!]! | Not nullable | Nested `Publisher` entities. |
+| `Result.Publishers` | `nodes.publishers.name` | [String!]! | Not nullable | N/A |
+| `Result.LogoUrl` | `nodes.logoUrl` | String! | Not nullable | N/A |
+| `Result.Avails` | `nodes.avails` | Float! | Not nullable | N/A |
+| `Result.Cpm` | `nodes.cpm` | MoneyModel! | Not nullable | N/A |
+| `Result.Cpm.Amount` | `nodes.cpm.amount` | Decimal! | Not nullable | N/A |
+| `Result.Cpm.CurrencyCode` | `nodes.cpm.currencyCode` | CurrencyCode! | Not nullable | N/A |
+| `Result.RelevanceScore` | `nodes.relevanceScore` | Float! | Not nullable | N/A |
+| `Result.ChannelName` | `nodes.channelName` | String! | Not nullable | N/A |
+| `ResultCount` | N/A | N/A | N/A | N/A |
+| `TotalFilteredCount` | `totalCount` | Int! | Not nullable | N/A |
+| `TotalUnfilteredCount` | N/A | N/A | N/A | N/A |
+
+## Endpoint-specific nested types and enums
+
+### PrivateContractInsight
+
+| REST field | GraphQL field | GraphQL type | Nullable | Notes |
+| --- | --- | --- | --- | --- |
+| `PrivateContractId` | `privateContractId` | ID! | Not nullable | N/A |
+| `ContractName` | `contractName` | String! | Not nullable | N/A |
+| `IsFirstParty` | `isFirstParty` | Boolean! | Not nullable | N/A |
+| `PublisherIds` | `publishers.id` | [ID!]! | Not nullable | N/A |
+| `Publishers` | `publishers.name` | [String!]! | Not nullable | N/A |
+| `LogoUrl` | `logoUrl` | String! | Not nullable | N/A |
+| `Avails` | `avails` | Float! | Not nullable | N/A |
+| `Cpm` | `cpm` | MoneyModel! | Not nullable | See the Audience domain page for `MoneyModel`. |
+| `RelevanceScore` | `relevanceScore` | Float! | Not nullable | N/A |
+| `ChannelName` | `channelName` | String! | Not nullable | N/A |
+
+## Code examples
+
+### REST example
+
+```
+POST /v3/audience/insights/privatecontract HTTP/1.1
+Content-Type: application/json
+TTD-Auth: AUTH_TOKEN_PLACEHOLDER
+
+{
+  "AudienceId": "<audience-id>",
+  "GeoSegmentIds": ["<geo-segment-id>"],
+  "PageStartIndex": 0,
+  "PageSize": 25
+}
+```
+
+### GraphQL example
+
+```
+POST /graphql HTTP/1.1
+Content-Type: application/json
+TTD-Auth: AUTH_TOKEN_PLACEHOLDER
+```
+
+```
+query PrivateContractInsights {
+  audience(id: "<audience-id>") {
+    privateContractInsights(
+      first: 25
+      filter: { geoSegmentIds: ["<geo-segment-id>"] }
+    ) {
+      nodes {
+        privateContractId
+        contractName
+        isFirstParty
+        logoUrl
+        avails
+        channelName
+        publishers {
+          id
+          name
+        }
+        cpm {
+          amount
+          currencyCode
+        }
+        relevanceScore
+      }
+      totalCount
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}
+```

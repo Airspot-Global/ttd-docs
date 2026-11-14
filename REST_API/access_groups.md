@@ -1,9 +1,13 @@
 # Access Groups
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/area/Access%20Groups
+- Source: removed from TTD docs (nearest live page: https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/UserManagementPlatform)
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/area/Access%20Groups (retired)
+- Retrieved: 2026-11-14 (removal checked; body is the pre-refresh copy)
 - Category: REST_API
 
 ---
+
+> **Removed from TTD docs (checked 2026-11-14).** This page is no longer on TTD's documentation site. The text below is the pre-refresh copy, kept because Airspot code or notes may cite it. Nearest live page: https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/UserManagementPlatform
 
 [
 
@@ -15,67 +19,67 @@ Platform
 
 News and Updates
 
-](/v3/portal/api/doc/ReleaseNotes)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/ReleaseNotes)
 
 [
 
 Get Started with the API
 
-](/v3/portal/api/doc/ApiPlatformGetStarted)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/ApiPlatformGetStarted)
 
 [
 
 API Token Authentication
 
-](/v3/portal/api/doc/Authentication)
+](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/PlatformAuthentication)
 
 [
 
 Partner Sandbox
 
-](/v3/portal/api/doc/PartnerSandbox)
+](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/PartnerSandbox)
 
 [
 
 Platform Management
 
-](/v3/portal/api/doc/PlatformManagement)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/PlatformManagement)
 
 [
 
 REST and GraphQL
 
-](/v3/portal/api/doc/ApisPlatform)
+](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/ApisPlatformOpenTTD)
 
 [
 
 GraphQL API Calls
 
-](/v3/portal/api/doc/GqlApiCallsPlatform)
+](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/GqlApiCallsPlatform)
 
 [
 
 REST API Calls
 
-](/v3/portal/api/doc/ApiUsageGuidelines)
+](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/ApiUsageGuidelines)
 
 [
 
 Get Started for Advertisers
 
-](/v3/portal/api/doc/Advertisers)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AdvertisersOpenTTD)
 
 [
 
 Create Advertisers
 
-](/v3/portal/api/doc/AdvertiserCreate)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AdvertiserCreate)
 
 [
 
 Advertiser Queries
 
-](/v3/portal/api/doc/AdvertiserGQLQueryExamples)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AdvertiserGQLQueryExamples)
 
 [
 
@@ -87,7 +91,7 @@ Python Scripts
 
 Entity Relationships
 
-](/v3/portal/api/doc/EntityRelationships)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/EntityRelationships)
 
 [
 
@@ -99,37 +103,37 @@ Trading Modes
 
 Campaigns
 
-](/v3/portal/api/doc/Campaigns)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Campaigns)
 
 [
 
 Seeds
 
-](/v3/portal/api/doc/Seed)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Seed)
 
 [
 
 Goals and KPIs
 
-](/v3/portal/api/doc/GoalsKPIs)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/GoalsKPIs)
 
 [
 
 Channels
 
-](/v3/portal/api/doc/Channel)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Channel)
 
 [
 
 Time Zones
 
-](/v3/portal/api/doc/CampaignTimeZones)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignTimeZones)
 
 [
 
 Budget Allocation
 
-](/v3/portal/api/doc/CampaignBudgets)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignBudgets)
 
 [
 
@@ -147,13 +151,13 @@ Update
 
 GraphQL Query Examples
 
-](/v3/portal/api/doc/CampaignQueryExamplesGQL)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignQueryExamplesGQL)
 
 [
 
 Campaign Connector
 
-](/v3/portal/api/doc/CampaignConnector)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignConnector)
 
 [
 
@@ -165,73 +169,73 @@ Tracking Tags
 
 Audiences and Targeting
 
-](/v3/portal/api/doc/AudiencesAndTargeting)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AudiencesAndTargeting)
 
 [
 
 Audiences
 
-](/v3/portal/api/doc/Audience)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Audience)
 
 [
 
 Publisher Lists
 
-](/v3/portal/api/doc/PublisherLists)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/PublisherLists)
 
 [
 
 SP500+ Marketplace
 
-](/v3/portal/api/doc/SP500)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/SP500)
 
 [
 
 Blue Lists
 
-](/v3/portal/api/doc/BlueLists)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/BlueLists)
 
 [
 
 Contextual Categories
 
-](/v3/portal/api/doc/ContextualCategories)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/ContextualCategories)
 
 [
 
 Geofence Targeting
 
-](/v3/portal/api/doc/GeofenceTargeting)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/GeofenceTargeting)
 
 [
 
 Geo-Interest Expansion for CTV
 
-](/v3/portal/api/doc/GeoInterestExpansion)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/GeoInterestExpansion)
 
 [
 
 Pollen Risk Targeting
 
-](/v3/portal/api/doc/Pollen)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Pollen)
 
 [
 
 Deals
 
-](/v3/portal/api/doc/PlatformDealOverview)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/deals/doc/PlatformDealOverview)
 
 [
 
 Manage
 
-](/v3/portal/api/doc/PlatformDeal)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/deals/doc/PlatformDeal)
 
 [
 
 Quality
 
-](/v3/portal/api/doc/PlatformDealQuality)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/deals/doc/PlatformDealQuality)
 
 [
 
@@ -243,67 +247,67 @@ Decisioning
 
 Ad Groups
 
-](/v3/portal/api/doc/AdGroup)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AdGroup)
 
 [
 
 Prism
 
-](/v3/portal/api/doc/Prism)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Prism)
 
 [
 
 Koa Optimizations
 
-](/v3/portal/api/doc/KoaOptimizations)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/KoaOptimizations)
 
 [
 
 Cross-Device
 
-](/v3/portal/api/doc/CrossDeviceTargeting)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CrossDeviceTargeting)
 
 [
 
 Predictive Clearing
 
-](/v3/portal/api/doc/PredictiveClearing)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/PredictiveClearing)
 
 [
 
 Creatives
 
-](/v3/portal/api/doc/Creative)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Creative)
 
 [
 
 Drive KPIs
 
-](/v3/portal/api/doc/DriveKPIs)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/DriveKPIs)
 
 [
 
 Decision Power
 
-](/v3/portal/api/doc/DecisionPower)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/DecisionPower)
 
 [
 
 Bid Lists
 
-](/v3/portal/api/doc/BidList)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/BidList)
 
 [
 
 Frequency
 
-](/v3/portal/api/doc/Frequency)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Frequency)
 
 [
 
 Custom Algorithms
 
-](/v3/portal/api/doc/CustomOptimizationAlgorithms)
+](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CustomOptimizationAlgorithms)
 
 [
 
@@ -339,7 +343,7 @@ Koa Optimizations
 
 API Reference
 
-](/v3/portal/api/doc/ApiReferencePlatform)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/doc/ApiReferencePlatform)
 
 [
 
@@ -399,397 +403,397 @@ GQLaccessGroupCreateChild Mutation
 
 Activity Log
 
-](/v3/portal/api/area/Activity%20Log)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Activity%20Log)
 
 [
 
 Ad Format
 
-](/v3/portal/api/area/Ad%20Format)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Ad%20Format)
 
 [
 
 Ad Group
 
-](/v3/portal/api/area/Ad%20Group)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Ad%20Group)
 
 [
 
 Ad Technology
 
-](/v3/portal/api/area/Ad%20Technology)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Ad%20Technology)
 
 [
 
 Additional Fees
 
-](/v3/portal/api/area/Additional%20Fees)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Additional%20Fees)
 
 [
 
 Advertiser
 
-](/v3/portal/api/area/Advertiser)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Advertiser)
 
 [
 
 Advertiser Merchant Permission
 
-](/v3/portal/api/area/Advertiser%20Merchant%20Permission)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Advertiser%20Merchant%20Permission)
 
 [
 
 Advertiser Product List
 
-](/v3/portal/api/area/Advertiser%20Product%20List)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Advertiser%20Product%20List)
 
 [
 
 Advertiser Product List Tracking Tag
 
-](/v3/portal/api/area/Advertiser%20Product%20List%20Tracking%20Tag)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Advertiser%20Product%20List%20Tracking%20Tag)
 
 [
 
 Audience
 
-](/v3/portal/api/area/Audience)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Audience)
 
 [
 
 Authentication
 
-](/v3/portal/api/area/Authentication)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Authentication)
 
 [
 
 Bid List
 
-](/v3/portal/api/area/Bid%20List)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Bid%20List)
 
 [
 
 Campaign
 
-](/v3/portal/api/area/Campaign)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Campaign)
 
 [
 
 Campaign Flight
 
-](/v3/portal/api/area/Campaign%20Flight)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Campaign%20Flight)
 
 [
 
 Campaign Group
 
-](/v3/portal/api/area/Campaign%20Group)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Campaign%20Group)
 
 [
 
 Category
 
-](/v3/portal/api/area/Category)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Category)
 
 [
 
 Category Taxonomy
 
-](/v3/portal/api/area/Category%20Taxonomy)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Category%20Taxonomy)
 
 [
 
 Comscore
 
-](/v3/portal/api/area/Comscore)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Comscore)
 
 [
 
 Content
 
-](/v3/portal/api/area/Content)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Content)
 
 [
 
 Contract
 
-](/v3/portal/api/area/Contract)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Contract)
 
 [
 
 Contract Group
 
-](/v3/portal/api/area/Contract%20Group)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Contract%20Group)
 
 [
 
 Creative
 
-](/v3/portal/api/area/Creative)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Creative)
 
 [
 
 Crm Data
 
-](/v3/portal/api/area/Crm%20Data)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Crm%20Data)
 
 [
 
 Cross Device
 
-](/v3/portal/api/area/Cross%20Device)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Cross%20Device)
 
 [
 
 Currency
 
-](/v3/portal/api/area/Currency)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Currency)
 
 [
 
 Custom Category
 
-](/v3/portal/api/area/Custom%20Category)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Custom%20Category)
 
 [
 
 Custom Label
 
-](/v3/portal/api/area/Custom%20Label)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Custom%20Label)
 
 [
 
 Data Group
 
-](/v3/portal/api/area/Data%20Group)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Data%20Group)
 
 [
 
 Delivery Profile
 
-](/v3/portal/api/area/Delivery%20Profile)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Delivery%20Profile)
 
 [
 
 Delta
 
-](/v3/portal/api/area/Delta)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Delta)
 
 [
 
 Device Make Model
 
-](/v3/portal/api/area/Device%20Make%20Model)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Device%20Make%20Model)
 
 [
 
 DMP
 
-](/v3/portal/api/area/DMP)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/DMP)
 
 [
 
 Dynamic Creative Optimization
 
-](/v3/portal/api/area/Dynamic%20Creative%20Optimization)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Dynamic%20Creative%20Optimization)
 
 [
 
 Dynamic Parameter Retargeting
 
-](/v3/portal/api/area/Dynamic%20Parameter%20Retargeting)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Dynamic%20Parameter%20Retargeting)
 
 [
 
 Factual Proximity Design
 
-](/v3/portal/api/area/Factual%20Proximity%20Design)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Factual%20Proximity%20Design)
 
 [
 
 Forecast
 
-](/v3/portal/api/area/Forecast)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Forecast)
 
 [
 
 Frequency Config
 
-](/v3/portal/api/area/Frequency%20Config)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Frequency%20Config)
 
 [
 
 Frequency Counter
 
-](/v3/portal/api/area/Frequency%20Counter)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Frequency%20Counter)
 
 [
 
 Geo Event
 
-](/v3/portal/api/area/Geo%20Event)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Geo%20Event)
 
 [
 
 Geo Segment
 
-](/v3/portal/api/area/Geo%20Segment)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Geo%20Segment)
 
 [
 
 Geo Target Segment
 
-](/v3/portal/api/area/Geo%20Target%20Segment)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Geo%20Target%20Segment)
 
 [
 
 Interest Targeting
 
-](/v3/portal/api/area/Interest%20Targeting)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Interest%20Targeting)
 
 [
 
 Inventory Classification
 
-](/v3/portal/api/area/Inventory%20Classification)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Inventory%20Classification)
 
 [
 
 IP Targeting List
 
-](/v3/portal/api/area/IP%20Targeting%20List)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/IP%20Targeting%20List)
 
 [
 
 Ispot
 
-](/v3/portal/api/area/Ispot)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Ispot)
 
 [
 
 Language
 
-](/v3/portal/api/area/Language)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Language)
 
 [
 
 Merchant Category
 
-](/v3/portal/api/area/Merchant%20Category)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Merchant%20Category)
 
 [
 
 Merchant Product
 
-](/v3/portal/api/area/Merchant%20Product)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Merchant%20Product)
 
 [
 
 Mobile Application
 
-](/v3/portal/api/area/Mobile%20Application)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Mobile%20Application)
 
 [
 
 Mobile Carrier
 
-](/v3/portal/api/area/Mobile%20Carrier)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Mobile%20Carrier)
 
 [
 
 My Reports
 
-](/v3/portal/api/area/My%20Reports)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/My%20Reports)
 
 [
 
 Nielsen
 
-](/v3/portal/api/area/Nielsen)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Nielsen)
 
 [
 
 Offline Tracking Tag
 
-](/v3/portal/api/area/Offline%20Tracking%20Tag)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Offline%20Tracking%20Tag)
 
 [
 
 Overview
 
-](/v3/portal/api/area/Overview)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Overview)
 
 [
 
 Partner
 
-](/v3/portal/api/area/Partner)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Partner)
 
 [
 
 REDS
 
-](/v3/portal/api/area/REDS)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/REDS)
 
 [
 
 Right Media Offer Type
 
-](/v3/portal/api/area/Right%20Media%20Offer%20Type)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Right%20Media%20Offer%20Type)
 
 [
 
 Seed
 
-](/v3/portal/api/area/Seed)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Seed)
 
 [
 
 Seller
 
-](/v3/portal/api/area/Seller)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Seller)
 
 [
 
 Supply Vendor
 
-](/v3/portal/api/area/Supply%20Vendor)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Supply%20Vendor)
 
 [
 
 Supply Vendor Publisher
 
-](/v3/portal/api/area/Supply%20Vendor%20Publisher)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Supply%20Vendor%20Publisher)
 
 [
 
 Third Party Data Rate
 
-](/v3/portal/api/area/Third%20Party%20Data%20Rate)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Third%20Party%20Data%20Rate)
 
 [
 
 Third Party Data Taxonomy
 
-](/v3/portal/api/area/Third%20Party%20Data%20Taxonomy)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Third%20Party%20Data%20Taxonomy)
 
 [
 
 Tracking
 
-](/v3/portal/api/area/Tracking)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Tracking)
 
 [
 
 Tracking Tag
 
-](/v3/portal/api/area/Tracking%20Tag)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Tracking%20Tag)
 
 [
 
 Universal Forecasting
 
-](/v3/portal/api/area/Universal%20Forecasting)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Universal%20Forecasting)
 
 [
 
@@ -801,25 +805,25 @@ Users
 
 Weather Condition
 
-](/v3/portal/api/area/Weather%20Condition)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Weather%20Condition)
 
 [
 
 Update Archives
 
-](/v3/portal/api/doc/PlatformArchives)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/PlatformArchives)
 
 [
 
 Release Notes
 
-](/v3/portal/api/doc/ReleaseNotesArchives)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/ReleaseNotesArchives)
 
 [
 
 Upgrade Support
 
-](/v3/portal/api/doc/UpgradeSupportArchives)
+](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/UpgradeSupportArchives)
 
 Access Groups
 

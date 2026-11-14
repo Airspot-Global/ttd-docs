@@ -1,6 +1,8 @@
 # Campaigns
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/Campaigns
+- Source: https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Campaigns
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/Campaigns (retired)
+- Retrieved: 2026-11-14
 - Category: Guides
 
 ---
@@ -11,53 +13,42 @@ A campaign is a strategy for purchasing ad inventory that is driven by goals, or
 
 Kokai campaigns also enable you to take advantage of innovative features like value-driven budgeting, a full-funnel approach at the ad group level, and Sellers and Publishers 500+ marketplace, a new inventory buying option that represents the easiest and most efficient way to buy the best of the open internet. These enhancements ensure you get the best value and relevance, optimizing your budget and delivering superior results.
 
-## 
-
-The Campaign Success Checklist[](#checklist)
+## The campaign success checklist
 
 Here's a list of key tasks to help you set up an effective Kokai campaign that drives your KPIs to success.
 
 | Task | Description |
-|  Create your [seed](/v3/portal/api/doc/Seed). | You might have already created a default seed as part of your [advertiser setup](/v3/portal/api/doc/Advertisers), but to run the most impactful campaigns in Kokai, we recommend creating a [specialized seed](/v3/portal/api/doc/Seed#faqs) for each campaign. |
-|  Define your [goals and KPIs](/v3/portal/api/doc/GoalsKPIs). | Be as specific as possible in what you want to achieve for your campaign by setting multiple [ad group](/v3/portal/api/doc/AdGroup) goals in addition to your campaign primary goal. |
-|  Set the primary [channel](/v3/portal/api/doc/Channel). | Expand your reach by dedicating multiple campaigns to specific channels. This omnichannel approach enables the platform to provide specific recomendations based on the channel you set for each campaign. |
-|  Set your [budgets](/v3/portal/api/doc/CampaignBudgets). | Create a campaign budget and decide if you want the platform to automatically purchase impressions that are most valuable and likely to convert, or, if you have specific needs, assign a budget to each strategy or ad group in your campaign. |
-|  Target quality inventory. | Choose the [Sellers and Publishers 500+ (SP500+) Marketplace](/v3/portal/api/doc/SP500) and use inventory controls to buy the best of the open internet. |
-|  Consider the full [funnel](/v3/portal/api/doc/AdGroup#funnel-location). | As you create your [ad groups](/v3/portal/api/doc/AdGroup), be sure that your settings are balance across the awareness, consideration, and conversion marketing objectives. |
-| Optimize the setup before launch. | Get key metrics through custom [GraphQL queries](/v3/portal/api/doc/CampaignQueryExamplesGQL), such as forecasted spend and relevance updates in real time, to help you fine tune your setup before launch. |
+| --- | --- |
+| Create your seed. | You might have already created a default seed as part of your advertiser setup, but to run the most impactful campaigns in Kokai, we recommend creating a specialized seed for each campaign. |
+| Define your Goals and KPIs. | Be as specific as possible in what you want to achieve for your campaign by setting multiple ad group goals in addition to your campaign primary goal. |
+| Set the primary channel. | Expand your reach by dedicating multiple campaigns to specific channels. This omnichannel approach enables the platform to provide specific recomendations based on the channel you set for each campaign. |
+| Set your budgets. | Create a campaign budget and decide if you want the platform to automatically purchase impressions that are most valuable and likely to convert, or, if you have specific needs, assign a budget to each strategy or ad group in your campaign. **NOTE**: By default, the platform maximizes performance while prioritizing full budget delivery. For details, see Koa bidding strategy. |
+| Target quality inventory. | Choose the Sellers and Publishers 500+ (SP500+) marketplace and use inventory controls to buy the best of the open internet. |
+| Consider the full funnel. | As you create your Ad groups, be sure that your settings are balance across the awareness, consideration, and conversion marketing objectives. |
+| Optimize the setup before launch. | Get key metrics through custom GraphQL queries, such as forecasted spend and relevance updates in real time, to help you fine tune your setup before launch. |
 
-## 
-
-Get Started[](#next)
+## Get started
 
 To get started with creating and managing campaigns, consider the following options:
 
-*   Decide whether to create a new campaign from scratch or clone an existing one.
-*   Choose the API that best suits your workflows: GraphQL API or REST API.
+- Decide whether to create a new campaign from scratch or clone an existing one.
+- Choose the API that best suits your workflows: GraphQL API or REST API.
 
-For details, see [Campaign Creation Workflows](/v3/portal/api/doc/CampaignCreateWorkflows).
+For details, see Campaign creation workflows.
 
-## 
-
-FAQs[](#faqs)
+## FAQs
 
 The following is a list of frequently asked questions about campaign management.
 
-### 
-
-What's a Kokai campaign?
+### What's a Kokai campaign?
 
 Any campaign that has its `Version` property set to `Kokai`. All campaigns created or cloned in Kokai, or any existing Solimar campaign upgraded to utilize Kokai enhancements, are Kokai campaigns by default.
 
-### 
+### How can I differentiate between Solimar and Kokai campaigns?
 
-How can I differentiate between Solimar and Kokai campaigns?
+To check if a campaign can take advantage of the Kokai enhancements, use the GET /v3/campaign/{campaignId} REST endpoint or run a `campaign` GraphQL query for the campaign, and look up the `Version` property value.
 
-To check if a campaign can take advantage of the Kokai enhancements, use the [GET /v3/campaign/{campaignId}](/v3/portal/api/ref/get-campaign-campaignid) REST endpoint or run a `campaign` GraphQL query for the campaign, and look up the `Version` property value.
-
-### 
-
-How do I choose the right API?
+### How do I choose the right API?
 
 You can use either the REST or GraphQL API to create and manage campaigns. Both are fully supported.
 
@@ -65,62 +56,41 @@ However, if you want to create, clone, or update multiple campaigns in one call,
 
 If you’re managing campaigns with Solimar budgets, or you're only updating a single campaign at a time, REST is still a great choice, especially for legacy workflows.
 
-### 
-
-Can I convert a Kokai campaign back to a Solimar campaign?
+### Can I convert a Kokai campaign back to a Solimar campaign?
 
 No. You will need to rebuild the campaign in Solimar.
 
-### 
+### Can I upgrade a campaign by changing its version from Solimar to Kokai?
 
-Can I upgrade a campaign by changing its version from Solimar to Kokai?
+No. You cannot change the campaign version. To upgrade a Solimar campaign to Kokai, you must run the `campaignVersionUpgrade` mutation. For details, see Upgrade Solimar campaigns to Kokai.
 
-No. You cannot change the campaign version. To upgrade a Solimar campaign to Kokai, you must run the `campaignVersionUpgrade` mutation. For details, see [Upgrade Solimar Campaigns to Kokai](/v3/portal/api/doc/KokaiCampaignUpgrade).
-
-### 
-
-Can I use the REST API to update a Kokai campaign?
+### Can I use the REST API to update a Kokai campaign?
 
 Yes. You can use both the REST API and GraphQL API to create and update campaigns.
 
-### 
+### How can I archive a campaign?
 
-How can I archive a campaign?
+In REST, use the PUT /v3/campaign endpoint and set the `Availability` property to `Archived`. In GraphQL, run the `campaignsArchive` mutation.
 
-In REST, use the [PUT /v3/campaign](/v3/portal/api/ref/put-campaign) endpoint and set the `Availability` property to `Archived`. In GraphQL, run the `campaignsArchive` mutation.
+### Can I use the campaignUpdate mutation to update a campaign flight?
 
-### 
+No. To update the campaign flight, use the `campaignFlightUpdate` mutation.
 
-Can I use the campaignUpdate mutation to update a campaign flight?
+### How do I query for flight IDs in a specific campaign?
 
-No. To update the campaign flight, use the `campaignFlightUpdate` [mutation](/v3/portal/api/doc/CampaignBudgets#update-flight).
+Use the `flights` filter in a GraphQL query to retrieve campaign flight IDs and the maximum amount each flight may spend. To learn more about using filters, see GraphQL API queries in our GraphQL Resource Hub.
 
-### 
-
-How do I query for flight IDs in a specific campaign?
-
-Use the `flights` filter in a GraphQL query to retrieve campaign flight IDs and the maximum amount each flight may spend. To learn more about using filters, see [GraphQL API Queries](/v3/portal/resources/doc/GqlApiQueries#filters) in our GraphQL Resource Hub.
-
-query GetFlightIDsExample {
-
-  campaign(id: "CAMPAIGN\_ID\_PLACEHOLDER"){
-
-    id
-
-    name
-
-    flights(where: {id: {in: \["FLIGHT\_ID\_1", "FLIGHT\_ID\_2"\]}}){
-
-      nodes{
-
-        id
-
-        budgetInAdvertiserCurrency
-
-      }
-
-    }
-
-  }
-
+```
+query GetFlightIDsExample {
+  campaign(id: "CAMPAIGN_ID_PLACEHOLDER"){
+    id
+    name
+    flights(where: {id: {in: ["FLIGHT_ID_1", "FLIGHT_ID_2"]}}){
+      nodes{
+        id
+        budgetInAdvertiserCurrency
+      }
+    }
+  }
 }
+```

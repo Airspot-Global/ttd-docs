@@ -1,17 +1,19 @@
 # Platform API Release Notes Archives
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/ReleaseNotesArchives
+- Source: https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/ReleaseNotesArchives
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/ReleaseNotesArchives (retired)
+- Retrieved: 2026-11-14
 - Category: Guides
 
 ---
 
-# Platform API Release Notes Archives
+# Advertiser release notes archives
 
-This page contains links to archived release notes detailing changes to the Platform API over the past two years.
+This page contains links to archived release notes detailing changes to The Trade Desk APIs for advertisers over the past two years.
 
-> **NOTE**: For the most up-to-date information, see [Platform API Release Notes](/v3/portal/api/doc/ReleaseNotes) and [Platform API Upcoming Changes and Schedules](/v3/portal/api/doc/UpgradeSupport).
+> **NOTE**: For the most up-to-date information, see Advertiser release notes and Upcoming API changes for advertisers.
 
 The following release notes are listed in chronological descending order.
 
-*   [2025 Platform API Release Notes](/v3/portal/api/doc/ReleaseNotes2025)
-*   [2024 Platform API Release Notes](/v3/portal/api/doc/ReleaseNotes2024)
+- 2025 Advertiser release notes
+- 2024 Advertiser release notes

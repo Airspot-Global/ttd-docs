@@ -1,28 +1,32 @@
 # Update Campaigns
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/CampaignUpdate
+- Source: removed from TTD docs (nearest live page: https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AdGroupUpdate)
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/CampaignUpdate (retired)
+- Retrieved: 2026-11-14 (removal checked; body is the pre-refresh copy)
 - Category: Guides
 
 ---
 
+> **Removed from TTD docs (checked 2026-11-14).** This page is no longer on TTD's documentation site. The text below is the pre-refresh copy, kept because Airspot code or notes may cite it. Nearest live page: https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AdGroupUpdate
+
 # Update Campaigns
 
-After you [clone](/v3/portal/api/doc/CampaignCloning) or [create](/v3/portal/api/doc/CampaignCreate) a campaign, you may need to make adjustments to maintain high effectiveness and relevance. This can include optimizing the settings for underperforming ad groups, creatives, or keywords. If you notice a shift in your target audience, you can adjust your targeting settings to help ensure your ads reach the right users. You can also reallocate your budget to focus on higher-performing segments or to accommodate new priorities. Additionally, modifying your campaign goals when conversion behavior changes can help keep your strategy aligned with performance trends. See also [Drive Your KPIs to Success](/v3/portal/api/doc/DriveKPIs).
+After you [clone](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCloning) or [create](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCreate) a campaign, you may need to make adjustments to maintain high effectiveness and relevance. This can include optimizing the settings for underperforming ad groups, creatives, or keywords. If you notice a shift in your target audience, you can adjust your targeting settings to help ensure your ads reach the right users. You can also reallocate your budget to focus on higher-performing segments or to accommodate new priorities. Additionally, modifying your campaign goals when conversion behavior changes can help keep your strategy aligned with performance trends. See also [Drive Your KPIs to Success](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/DriveKPIs).
 
 Here's what you need to know about updating campaigns:
 
-*   Updating a campaign has most of the same [requirements](/v3/portal/api/doc/CampaignCreate#requirements) and dependencies as [creating](/v3/portal/api/doc/CampaignCreateWorkflows) a campaign.
-*   To update single campaigns, use the [REST API](#rest). For updating multiple campaigns in bulk, use the GraphQL [bulk operations](/v3/portal/api/doc/GqlBulkOperations).
+*   Updating a campaign has most of the same [requirements](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCreate#requirements) and dependencies as [creating](/v3/portal/api/doc/CampaignCreateWorkflows) a campaign.
+*   To update single campaigns, use the [REST API](#rest). For updating multiple campaigns in bulk, use the GraphQL [bulk operations](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/GqlBulkOperations).
 
-This page explains how to update a single campaign. For details about updating [bid lists](/v3/portal/api/doc/BidList), [seeds](/v3/portal/api/doc/Seed), [ad groups](/v3/portal/api/doc/AdGroup), and other settings, see the respective guides.
+This page explains how to update a single campaign. For details about updating [bid lists](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/BidList), [seeds](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Seed), [ad groups](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AdGroup), and other settings, see the respective guides.
 
 ## 
 
 REST Request Example[](#rest)
 
-To update a campaign, use the [PUT /v3/campaign](/v3/portal/api/ref/put-campaign) endpoint.
+To update a campaign, use the [PUT /v3/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/put-campaign) endpoint.
 
-For example, to update the campaign goals in the example request, you can include the following [PUT /v3/campaign](/v3/portal/api/ref/put-campaign) request body:
+For example, to update the campaign goals in the example request, you can include the following [PUT /v3/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/put-campaign) request body:
 
 {
 
@@ -63,10 +67,10 @@ FAQs[](#faqs)
 
 Can I use the GraphQL API to update campaigns?
 
-Yes, you can use the [bulk operation](/v3/portal/api/doc/GqlBulkOperations) mutations to update a single campaign or multiple campaigns at once.
+Yes, you can use the [bulk operation](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/GqlBulkOperations) mutations to update a single campaign or multiple campaigns at once.
 
 ### 
 
 Can I attach a different seed to a campaign I already created?
 
-Yes. For details, see [Seeds](/v3/portal/api/doc/Seed).
+Yes. For details, see [Seeds](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Seed).
