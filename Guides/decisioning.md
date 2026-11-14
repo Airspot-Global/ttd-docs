@@ -1,9 +1,13 @@
 # Deal Decisioning
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/PlatformDealNonDecisioned
+- Source: removed from TTD docs
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/PlatformDealNonDecisioned (retired)
+- Retrieved: 2026-11-14 (removal checked; body is the pre-refresh copy)
 - Category: Guides
 
 ---
+
+> **Removed from TTD docs (checked 2026-11-14).** This page is no longer on TTD's documentation site. The text below is the pre-refresh copy, kept because Airspot code or notes may cite it. Nearest live page: none
 
 # Deal Decisioning
 

@@ -1,0 +1,71 @@
+# POST /v3/audience/insights/marketmix → Audience.marketMixInsights
+
+- Source: https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/doc/post-v3-audience-insights-marketmix
+- Retrieved: 2026-11-14
+- Category: REST_API
+
+---
+
+# POST /v3/audience/insights/marketmix → Audience.marketMixInsights
+
+## Overview
+
+| Property | Value |
+| --- | --- |
+| REST endpoint | `POST /v3/audience/insights/marketmix` |
+| GraphQL query | `Audience.marketMixInsights` |
+| Return type | `MarketMixInsights` |
+
+## Request and filter field mapping
+
+| REST field | GraphQL argument | GraphQL type | Required | Notes |
+| --- | --- | --- | --- | --- |
+| `AudienceId` | Parent: `Query.audience(id: ID!)` | N/A | Required | Audience ID is taken from the parent entity. |
+| `GeoSegmentIds` | `filter.geoSegmentIds` | [ID!]! | Required | `AudienceBreakdownInsightsParamInput`. |
+| `UseMockData` | N/A | N/A | N/A | **Not currently available in GraphQL** |
+
+## Response field mapping
+
+| REST response field | GraphQL field | GraphQL type | Nullable | Notes |
+| --- | --- | --- | --- | --- |
+| `AudienceId` | N/A | N/A | N/A | Taken from parent `audience(id)` query; not echoed in response. |
+| `GeoSegmentIds` | N/A | N/A | N/A | Supplied via `filter.geoSegmentIds`; not echoed in response. |
+| `Metrics` | `metrics` | [MarketMixInsight!]! | Not nullable | N/A |
+| `Metrics.MarketType` | `metrics.marketType` | AudienceInsightsMarket! | Not nullable | N/A |
+| `Metrics.PercentageOfInventory` | `metrics.percentageOfInventory` | Float! | Not nullable | N/A |
+
+## Code examples
+
+### REST example
+
+```
+POST /v3/audience/insights/marketmix HTTP/1.1
+Content-Type: application/json
+TTD-Auth: AUTH_TOKEN_PLACEHOLDER
+
+{
+  "AudienceId": "<audience-id>",
+  "GeoSegmentIds": ["<geo-segment-id>"]
+}
+```
+
+### GraphQL example
+
+```
+POST /graphql HTTP/1.1
+Content-Type: application/json
+TTD-Auth: AUTH_TOKEN_PLACEHOLDER
+```
+
+```
+query MarketMixInsights {
+  audience(id: "<audience-id>") {
+    marketMixInsights(filter: { geoSegmentIds: ["<geo-segment-id>"] }) {
+      metrics {
+        marketType
+        percentageOfInventory
+      }
+    }
+  }
+}
+```

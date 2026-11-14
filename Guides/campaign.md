@@ -1,13 +1,17 @@
 # Campaign (Solimar)
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/SolimarCampaign
+- Source: removed from TTD docs
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/SolimarCampaign (retired)
+- Retrieved: 2026-11-14 (removal checked; body is the pre-refresh copy)
 - Category: Guides
 
 ---
 
+> **Removed from TTD docs (checked 2026-11-14).** This page is no longer on TTD's documentation site. The text below is the pre-refresh copy, kept because Airspot code or notes may cite it. Nearest live page: none
+
 # Campaign (Solimar)
 
-> **IMPORTANT**: This guide is intended for Solimar users. To create and manage campaigns in Kokai, see [Campaigns](/v3/portal/api/doc/Campaigns).
+> **IMPORTANT**: This guide is intended for Solimar users. To create and manage campaigns in Kokai, see [Campaigns](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Campaigns).
 
 A campaign is a group of strategies with the same budget, flight dates, and conversion events. Campaigns in The Trade Desk platform are focused on and driven by goals, or key performance indicators (KPIs). That’s why multi-level goal setting—where you can input a high-level business objective and tie it back to multiple KPIs—is so important. Setting multi-level goals enables Koa, The Trade Desk AI, to optimize your campaign to drive performance more effectively. With your goals as the guide, and unlimited expressiveness, you can be confident that every ad impression you’re buying is the right one, at the right price. This could mean running campaigns in channels you had not previously considered, resulting in multiple campaigns being created to best achieve your goals.
 
@@ -22,8 +26,8 @@ Here’s what you need to know about campaigns:
 *   For legacy campaigns with no objective, primary goal, and channel properties set, these values are optional when [updating](#update-campaign) and [cloning](#clone-campaign) them. For details, see [Manage Campaigns](#manage-campaigns).
 *   The [Koa Optimizations](/v3/portal/api/doc/SolimarKoaOptimizations) feature automatically optimizes your campaign performance based on the objective and goals you select. It is always on by default.
 *   To [automatically allocate](/v3/portal/api/doc/SolimarCampaignBudget) the campaign budget, be sure to turn on Auto Allocator and Auto Prioritization.
-*   To save time and ensure consistency across ad groups, you can include advertiser’s default bid lists in campaigns and further propagate them to ad groups. For details, see [Default Bid Lists](/v3/portal/api/doc/BidListDefault).
-*   To create a campaign, you'll need to assign at least one [creative](/v3/portal/api/doc/Creative), but you don't need to have creatives available.
+*   To save time and ensure consistency across ad groups, you can include advertiser’s default bid lists in campaigns and further propagate them to ad groups. For details, see [Default Bid Lists](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/BidListDefault).
+*   To create a campaign, you'll need to assign at least one [creative](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Creative), but you don't need to have creatives available.
 
 For details on budgets, flights, pacing options, and other important concepts, see [Campaigns](https://desk.thetradedesk.com/knowledge-portal/en/campaigns.html) in the Knowledge Portal.
 
@@ -111,9 +115,9 @@ Here's what you need to know about conversion reporting columns:
 *   If your campaign is not conversion-focused, send the `CampaignConversionReportingColumns` object array empty.
 *   To add a conversion reporting column to your campaign, you must include at least the following `CampaignConversionReportingColumns` parameters:
     *   `TrackingTagId`  
-        The tracking tag to which the ID belongs must have a type considered to be a conversion (for details, see the [Tracking Tags](/v3/portal/api/ref/post-trackingtag) and [Tracking Tag Type](/v3/portal/api/ref/get-trackingtag-query-facets) APIs).
+        The tracking tag to which the ID belongs must have a type considered to be a conversion (for details, see the [Tracking Tags](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-trackingtag) and [Tracking Tag Type](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/get-trackingtag-query-facets) APIs).
     *   `ReportingColumnId`  
-        Metrics about this conversion will appear in reports under this reporting column. Only one tracking tag ID and cross-device attribution model ID may be mapped to each column within a campaign. For details, see [Set Up Cross-Device Attribution for a Conversion Campaign](/v3/portal/api/doc/CrossDeviceTargeting#attribution).
+        Metrics about this conversion will appear in reports under this reporting column. Only one tracking tag ID and cross-device attribution model ID may be mapped to each column within a campaign. For details, see [Set Up Cross-Device Attribution for a Conversion Campaign](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CrossDeviceTargeting#attribution).
 *   You can include up to five reporting columns.
 *   You can always update your reporting columns later, but new reports will not contain retroactive metrics for these conversions. If you assign different conversions to a previously-used reporting column, your long-term roll-up reports could be misleading.
 
@@ -125,11 +129,11 @@ The following table lists the high-level campaign tasks and summarizes the objec
 
 | Task | Endpoint | Objective, Primary Goal, Channel |
 | Solimar Campaigns | Legacy Campaigns |
-| [Create](#create-campaign) a campaign. | [POST /v3/campaign](/v3/portal/api/ref/post-campaign) | Required | N/A |
-| [Update](#update-campaign) a campaign. | [PUT /v3/campaign](/v3/portal/api/ref/put-campaign) | Required  
+| [Create](#create-campaign) a campaign. | [POST /v3/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign) | Required | N/A |
+| [Update](#update-campaign) a campaign. | [PUT /v3/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/put-campaign) | Required  
 Can be changed | Optional  
 May be added |
-| [Clone](#clone-campaign) a campaign. | [POST /v3/campaign/clone](/v3/portal/api/ref/post-campaign-clone) | Copied automatically  
+| [Clone](#clone-campaign) a campaign. | [POST /v3/campaign/clone](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign-clone) | Copied automatically  
 May not be changed | Optional  
 May be added |
 
@@ -137,7 +141,7 @@ May be added |
 
 Create a Campaign[](#create-campaign)
 
-To create a campaign, use the [POST /v3/campaign](/v3/portal/api/ref/post-campaign) endpoint.
+To create a campaign, use the [POST /v3/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign) endpoint.
 
 Here’s what you need to know about creating campaigns:
 
@@ -153,14 +157,14 @@ Here’s what you need to know about creating campaigns:
 *   To [automatically allocate](/v3/portal/api/doc/SolimarCampaignBudget) the campaign budget to multiple ad groups, be sure to turn on the Auto Allocator and Auto Prioritization options.
 *   If your campaign is not conversion-focused, send the `CampaignConversionReportingColumns` object array empty. For details, see [Conversion Reporting Columns](#conversion-columns).
 *   If pacing mode is off or not included in the request, be sure to include a budget.
-*   To save time and ensure consistency across ad groups, you can include advertiser’s default bid lists in campaigns and further propagate them to ad groups. For details, see [Default Bid Lists](/v3/portal/api/doc/BidListDefault).
+*   To save time and ensure consistency across ad groups, you can include advertiser’s default bid lists in campaigns and further propagate them to ad groups. For details, see [Default Bid Lists](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/BidListDefault).
 *   After campaign creation, you can [update](#update-campaign) parameter values as needed. You cannot remove the primary goal, but you can remove the secondary and tertiary goals.
 
 ### 
 
 Example Request[](#create-response)
 
-Here's an example of a [POST /v3/campaign](/v3/portal/api/ref/post-campaign) request body for a campaign that has multiple goals.
+Here's an example of a [POST /v3/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign) request body for a campaign that has multiple goals.
 
 {
 
@@ -224,7 +228,7 @@ Here's an example of a [POST /v3/campaign](/v3/portal/api/ref/post-campaign) req
 
 Example Response
 
-Here's an example of a [POST /v3/campaign](/v3/portal/api/ref/post-campaign) response body with multiple optional properties in addition to the required ones.
+Here's an example of a [POST /v3/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign) response body with multiple optional properties in addition to the required ones.
 
 {
 
@@ -436,7 +440,7 @@ Here's an example of a [POST /v3/campaign](/v3/portal/api/ref/post-campaign) res
 
 Update a Campaign[](#update-campaign)
 
-To update a campaign, use the [PUT/campaign](/v3/portal/api/ref/put-campaign) endpoint.
+To update a campaign, use the [PUT/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/put-campaign) endpoint.
 
 Here’s what you need to keep in mind about updating campaigns and their KPIs:
 
@@ -453,7 +457,7 @@ Here’s what you need to keep in mind about updating campaigns and their KPIs:
 
 Example Request
 
-For example, to update the campaign goals in the [example request](#create-response), you can include the following [PUT/campaign](/v3/portal/api/ref/put-campaign) request body:
+For example, to update the campaign goals in the [example request](#create-response), you can include the following [PUT/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/put-campaign) request body:
 
 {
 
@@ -479,7 +483,7 @@ For example, to update the campaign goals in the [example request](#create-respo
 
 Clone a Campaign[](#clone-campaign)
 
-If you want to run a campaign with the same channel and strategies as one that you have already created, you can clone the existing campaign instead of creating new campaigns from scratch. To clone a campaign, use the [POST /v3/campaign/clone](/v3/portal/api/ref/post-campaign-clone) endpoint.
+If you want to run a campaign with the same channel and strategies as one that you have already created, you can clone the existing campaign instead of creating new campaigns from scratch. To clone a campaign, use the [POST /v3/campaign/clone](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign-clone) endpoint.
 
 Here’s what you need to know about cloning campaigns:
 
@@ -495,14 +499,14 @@ Here’s what you need to know about cloning campaigns:
     
 *   You may not change the campaign objective, goals, or channel when you clone campaigns. For details on making changes, see [Update a Campaign](#update-campaign).
     
-*   The [POST /v3/campaign/clone](/v3/portal/api/ref/post-campaign-clone) endpoint only submits a job to clone a campaign and returns a reference ID. You can use the reference ID to check the job status by calling the [GET /v3/campaign/clone/status/{referenceId}](/v3/portal/api/ref/get-campaign-clone-status-referenceid) endpoint.
+*   The [POST /v3/campaign/clone](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign-clone) endpoint only submits a job to clone a campaign and returns a reference ID. You can use the reference ID to check the job status by calling the [GET /v3/campaign/clone/status/{referenceId}](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/get-campaign-clone-status-referenceid) endpoint.
     
 
 ### 
 
 Example Requests
 
-Here’s an example of a [POST /v3/campaign/clone](/v3/portal/api/ref/post-campaign-clone) request body for cloning a campaign with the objective, goals, and other properties already set. This request clones all ad groups and budgets for the specified flight.
+Here’s an example of a [POST /v3/campaign/clone](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign-clone) request body for cloning a campaign with the objective, goals, and other properties already set. This request clones all ad groups and budgets for the specified flight.
 
 {
 
@@ -512,7 +516,7 @@ Here’s an example of a [POST /v3/campaign/clone](/v3/portal/api/ref/post-campa
 
 }
 
-Here’s an example of a [POST /v3/campaign/clone](/v3/portal/api/ref/post-campaign-clone) request body for cloning a campaign that does not have the objective, goals, and channel properties set.
+Here’s an example of a [POST /v3/campaign/clone](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-campaign-clone) request body for cloning a campaign that does not have the objective, goals, and channel properties set.
 
 {
 
@@ -554,7 +558,7 @@ If the campaign that you are trying to clone already has these properties set, t
 
 Can I change objectives, goals, and channels when cloning campaigns?
 
-No. If the campaign you are trying to clone already has these properties set, you may not change them. You can clone the campaign and then use the [PUT/campaign](/v3/portal/api/ref/put-campaign) endpoint to make the updates you want. For details, see [Update Campaigns](#update-campaign).
+No. If the campaign you are trying to clone already has these properties set, you may not change them. You can clone the campaign and then use the [PUT/campaign](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/put-campaign) endpoint to make the updates you want. For details, see [Update Campaigns](#update-campaign).
 
 ### 
 

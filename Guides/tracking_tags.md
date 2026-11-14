@@ -1,15 +1,19 @@
 # Tracking Tags
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/TrackingTag
+- Source: removed from TTD docs (nearest live page: https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/data/doc/TrackingTagsOverview)
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/TrackingTag (retired)
+- Retrieved: 2026-11-14 (removal checked; body is the pre-refresh copy)
 - Category: Guides
 
 ---
 
+> **Removed from TTD docs (checked 2026-11-14).** This page is no longer on TTD's documentation site. The text below is the pre-refresh copy, kept because Airspot code or notes may cite it. Nearest live page: https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/data/doc/TrackingTagsOverview
+
 # Tracking Tags
 
-A tracking tag is a piece of code that loads an anonymous cookie every time a new user lands on a website. When a user leaves a site, the cookie continues to track their behavior. Pixels enable retargeting, which means that the same ads might be displayed on other websites that the user visits. Tracking tags are also known as pixels, tracking pixels, re-targeting pixels, and conversion pixels. For more technical details on the tracking tag anatomy and functionality, see [Tracking Tags](/v3/portal/data/doc/TrackingTagsOverview).
+A tracking tag is a piece of code that loads an anonymous cookie every time a new user lands on a website. When a user leaves a site, the cookie continues to track their behavior. Pixels enable retargeting, which means that the same ads might be displayed on other websites that the user visits. Tracking tags are also known as pixels, tracking pixels, re-targeting pixels, and conversion pixels. For more technical details on the tracking tag anatomy and functionality, see [Tracking Tags](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/data/doc/TrackingTagsOverview).
 
-To create a tracking tag, specify all the required properties in a [POST /v3/trackingtag](/v3/portal/api/ref/post-trackingtag) call. For example:
+To create a tracking tag, specify all the required properties in a [POST /v3/trackingtag](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-trackingtag) call. For example:
 
 {
 

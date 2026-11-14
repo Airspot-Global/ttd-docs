@@ -1,0 +1,1 @@
+advertiser/docsApp/(Foundations/resources|GuidesAdvertiser/(api|deals|data)|AdvertiserNews/news|AdvertiserReferences/api/doc)/

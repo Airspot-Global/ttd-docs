@@ -1,33 +1,37 @@
 # Advertiser (Solimar)
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/SolimarAdvertiser
+- Source: removed from TTD docs
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/SolimarAdvertiser (retired)
+- Retrieved: 2026-11-14 (removal checked; body is the pre-refresh copy)
 - Category: Guides
 
 ---
 
+> **Removed from TTD docs (checked 2026-11-14).** This page is no longer on TTD's documentation site. The text below is the pre-refresh copy, kept because Airspot code or notes may cite it. Nearest live page: none
+
 # Advertiser (Solimar)
 
-> **IMPORTANT**: This guide is intended for Solimar users. To create or manage advertisers in Kokai, see [Create Advertiser](/v3/portal/api/doc/AdvertiserCreate).
+> **IMPORTANT**: This guide is intended for Solimar users. To create or manage advertisers in Kokai, see [Create Advertiser](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/AdvertiserCreate).
 
 An advertiser is a company, group, or brand that buys ad space online in order to sell products or services to a target audience. You must create advertisers before you can set up campaigns in The Trade Desk platform because campaigns, creatives, tracking tags, and data elements must be all associated with an advertiser and require an advertiser ID to be created.
 
 Here's what you need to know:
 
-*   To create advertisers, you must have a partner ID, which was provided to you as part of your API credentials during your [onboarding](/v3/portal/api/doc/ApiPlatformGetStarted).
+*   To create advertisers, you must have a partner ID, which was provided to you as part of your API credentials during your [onboarding](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/ApiPlatformGetStarted).
 *   If you are interested in running advertising campaigns for candidates or ballot measures for federal, state or local elections, there are additional requirements. For details, see [Political Advertising](/v3/portal/api/doc/PoliticalAdvertising).
 *   By default, your advertiser's currency code is set to the United States Dollar (USD) for budgeting and reporting purposes. If you select a different currency when creating an advertiser, you will not be able to change it and will have to create a new advertiser.
 *   You can specify default frequency, bid lists, and other settings that will be automatically propagated to all campaigns and their ad groups created for the advertiser. You can change these settings for all individual instances as needed when creating or updating them.
-*   Certain settings at the advertiser level are enabled and propagated to new ad groups by default, such as [Prism](/v3/portal/api/doc/Prism). For details, see [FAQs](#faqs).
+*   Certain settings at the advertiser level are enabled and propagated to new ad groups by default, such as [Prism](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Prism). For details, see [FAQs](#faqs).
 
-For industry categories, we use the IAB Tech Lab Content Taxonomy [version 2.2](https://iabtechlab.com/wp-content/uploads/2020/12/Implementation_Guide_for_Brand_Suitability_with_IABTechLab_Content_Taxonomy_2-2.pdf). For details on required properties, their correlation to the IAB taxonomy 1.0, and mapping information returned in responses, see [Industry Category Taxonomy Migration](/v3/portal/api/doc/UpgradeSupportCategoryTaxonomy).
+For industry categories, we use the IAB Tech Lab Content Taxonomy [version 2.2](https://iabtechlab.com/wp-content/uploads/2020/12/Implementation_Guide_for_Brand_Suitability_with_IABTechLab_Content_Taxonomy_2-2.pdf). For details on required properties, their correlation to the IAB taxonomy 1.0, and mapping information returned in responses, see [Industry Category Taxonomy Migration](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/UpgradeSupportCategoryTaxonomy).
 
 ## 
 
 Create an Advertiser[](#create)
 
-To create an advertiser, specify all the required properties in a [POST /v3/advertiser](/v3/portal/api/ref/post-advertiser) call.
+To create an advertiser, specify all the required properties in a [POST /v3/advertiser](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/ref/post-advertiser) call.
 
-> **IMPORTANT**: Be sure to update your workflows to use the `AdvertiserCategory` property. For details on required properties and taxonomy mapping information returned in responses, see [Using Legacy and New Category Properties](/v3/portal/api/doc/UpgradeSupportCategoryTaxonomy#use-cases).
+> **IMPORTANT**: Be sure to update your workflows to use the `AdvertiserCategory` property. For details on required properties and taxonomy mapping information returned in responses, see [Using Legacy and New Category Properties](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserNews/news/doc/UpgradeSupportCategoryTaxonomy#use-cases).
 
 For example:
 
@@ -186,10 +190,10 @@ The Trade Desk maintains an EU Health Policy that treats health data as sensitiv
 The following table summarizes the scope of impact.
 
 | Endpoints | Condition | Notes |
-| [Bid Lists](/v3/portal/api/doc/BidList) | Bid list contains atmospheric conditions. | [Pollen risk targeting](/v3/portal/api/doc/ReleaseNotes2023#october-10-2023) is disabled in GDPR regions. |
-| [Ad Groups](/v3/portal/api/doc/SolimarAdGroup) | Ad group optimization uses Audience Booster, Prism, Audience Predictor, retargeting, or interest targeting. | Certain ad group performance enhancements are not supported in GDPR regions. See also [Performance-Enhancing Features](/v3/portal/api/doc/SolimarAdGroup#ad-group-koa-features). For details, see [Prism](/v3/portal/api/doc/Prism).  
+| [Bid Lists](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/BidList) | Bid list contains atmospheric conditions. | [Pollen risk targeting](/v3/portal/api/doc/ReleaseNotes2023#october-10-2023) is disabled in GDPR regions. |
+| [Ad Groups](/v3/portal/api/doc/SolimarAdGroup) | Ad group optimization uses Audience Booster, Prism, Audience Predictor, retargeting, or interest targeting. | Certain ad group performance enhancements are not supported in GDPR regions. See also [Performance-Enhancing Features](/v3/portal/api/doc/SolimarAdGroup#ad-group-koa-features). For details, see [Prism](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Prism).  
 **NOTE**: Prism is disabled for advertisers whose partners have opted out of fee-based features. |
-| [CRM Data](/v3/portal/api/area/Crm%20Data) | Upload contains health data that originates within GDPR regions | Advertisers cannot upload health data that violates policy. |
+| [CRM Data](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Crm%20Data) | Upload contains health data that originates within GDPR regions | Advertisers cannot upload health data that violates policy. |
 
 > **NOTE**: Health advertisers are identified through self-categorization and review by The Trade Desk, of the advertised product.
 
@@ -203,7 +207,7 @@ The following is a list of frequently asked questions about advertisers.
 
 How do I enable Prism for an advertiser?
 
-You can enable Prism using REST and GraphQL. For details, see [Prism](/v3/portal/api/doc/Prism).
+You can enable Prism using REST and GraphQL. For details, see [Prism](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Prism).
 
 ### 
 

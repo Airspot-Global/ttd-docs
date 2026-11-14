@@ -1,9 +1,13 @@
 # Python Scripts
 
-- Source: https://partner.thetradedesk.com/v3/portal/api/doc/PythonScripts
+- Source: removed from TTD docs
+- Legacy source: https://partner.thetradedesk.com/v3/portal/api/doc/PythonScripts (retired)
+- Retrieved: 2026-11-14 (removal checked; body is the pre-refresh copy)
 - Category: Guides
 
 ---
+
+> **Removed from TTD docs (checked 2026-11-14).** This page is no longer on TTD's documentation site. The text below is the pre-refresh copy, kept because Airspot code or notes may cite it. Nearest live page: none
 
 # Python Scripts
 
@@ -25,10 +29,10 @@ Git Directory[](#git)
 The following table lists the available directories on Github and links to user guides, sorted alphabetically.
 
 | Directory | Description | User Guide |
-| [Campaign](https://github.com/thetradedesk/Platform/tree/main/Python/Campaign) | Create and manage campaigns for Kokai using GraphQL or REST. | [Campaigns](/v3/portal/api/doc/Campaigns) |
-| [Delta](https://github.com/thetradedesk/Platform/tree/main/Python/Delta) | Track periodic metadata-level changes using GraphQL or REST. | [Platform Synchronization](/v3/portal/api/doc/PlatformSynchronization) |
-| [Report](https://github.com/thetradedesk/Platform/tree/main/Python/Report) | Download and query different kinds of reports using GraphQL. | [Reports](/v3/portal/reds/doc/DimensionSpecificReports) (More coming soon) |
-| [Seed](https://github.com/thetradedesk/Platform/tree/main/Python/Seed) | Create an ideal audience to target your campaigns using GraphQL. | [Seeds](/v3/portal/api/doc/Seed) |
+| [Campaign](https://github.com/thetradedesk/Platform/tree/main/Python/Campaign) | Create and manage campaigns for Kokai using GraphQL or REST. | [Campaigns](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Campaigns) |
+| [Delta](https://github.com/thetradedesk/Platform/tree/main/Python/Delta) | Track periodic metadata-level changes using GraphQL or REST. | [Platform Synchronization](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/PlatformSynchronization) |
+| [Report](https://github.com/thetradedesk/Platform/tree/main/Python/Report) | Download and query different kinds of reports using GraphQL. | [Reports](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/reds/doc/DimensionSpecificReports) (More coming soon) |
+| [Seed](https://github.com/thetradedesk/Platform/tree/main/Python/Seed) | Create an ideal audience to target your campaigns using GraphQL. | [Seeds](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Seed) |
 
 ## 
 
@@ -45,11 +49,11 @@ Create campaigns in Kokai with the GraphQL API, through these fill-in-the-blank 
 The following table lists the available scripts for GraphQL and user guides, sorted alphabetically.
 
 | Script | Description | User Guide |
-| [CloneCampaignGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Cloning/CloneCampaignGQL.py) | Create one or more Kokai copies of an existing campaign using GraphQL. | [Clone Campaigns with the GraphQL API](/v3/portal/api/doc/CampaignCloning#gql) |
-| [CreateCampaignWorkflowGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Creating/CreateCampaignWorkflowGQL.py) | Create a Kokai campaign using GraphQL. | [Campaign Creation Workflow with GraphQL](/v3/portal/api/doc/CampaignCreateGQL) |
-| [CreateCampaignsBulkGQL](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Creating/CreateCampaignsBulkGQL.py) | Create multiple Kokai campaigns in a single request using GraphQL. | [GraphQL Bulk Operations](/v3/portal/api/doc/GqlBulkOperations) |
-| [GetCampaignBudgetGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Budgets/GetCampaignBudgetGQL.py) | Retrieve campaign budget settings using GraphQL. | [Budget Allocation](/v3/portal/api/doc/CampaignBudgets) |
-| [GetCampaignGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Querying/GetCampaignGQL.py) | Retrieve campaign information using GraphQL. | [GraphQL Campaign Query Examples](/v3/portal/api/doc/CampaignQueryExamplesGQL) |
+| [CloneCampaignGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Cloning/CloneCampaignGQL.py) | Create one or more Kokai copies of an existing campaign using GraphQL. | [Clone Campaigns with the GraphQL API](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCloning#gql) |
+| [CreateCampaignWorkflowGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Creating/CreateCampaignWorkflowGQL.py) | Create a Kokai campaign using GraphQL. | [Campaign Creation Workflow with GraphQL](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCreateGQL) |
+| [CreateCampaignsBulkGQL](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Creating/CreateCampaignsBulkGQL.py) | Create multiple Kokai campaigns in a single request using GraphQL. | [GraphQL Bulk Operations](https://open.thetradedesk.com/advertiser/docsApp/Foundations/resources/doc/GqlBulkOperations) |
+| [GetCampaignBudgetGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Budgets/GetCampaignBudgetGQL.py) | Retrieve campaign budget settings using GraphQL. | [Budget Allocation](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignBudgets) |
+| [GetCampaignGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Querying/GetCampaignGQL.py) | Retrieve campaign information using GraphQL. | [GraphQL Campaign Query Examples](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignQueryExamplesGQL) |
 
 ### 
 
@@ -60,9 +64,9 @@ Create campaigns in Kokai with the REST API, through these fill-in-the-blank RES
 The following table lists the available scripts for REST and user guides, sorted alphabetically.
 
 | Script | Description | User Guide |
-| [CloneCampaignREST.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Cloning/CloneCampaignREST.py) | Create a Kokai campaign copy of an existing campaign using REST. | [Clone a Campaign with the REST API](/v3/portal/api/doc/CampaignCloning#rest) |
+| [CloneCampaignREST.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Cloning/CloneCampaignREST.py) | Create a Kokai campaign copy of an existing campaign using REST. | [Clone a Campaign with the REST API](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignCloning#rest) |
 | [CreateCampaignWorkflowREST.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Creating/CreateCampaignWorkflowREST.py) | Create a Kokai campaign using REST. | [Campaign Creation Workflow with REST](/v3/portal/api/doc/CampaignCreateREST) |
-| [GetCampaignREST.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Querying/GetCampaignREST.py) | Retrieve campaign information using REST. | [Campaign REST Endpoints](/v3/portal/api/area/Campaign) |
+| [GetCampaignREST.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Querying/GetCampaignREST.py) | Retrieve campaign information using REST. | [Campaign REST Endpoints](https://open.thetradedesk.com/advertiser/docsApp/AdvertiserReferences/api/area/Campaign) |
 
 ### 
 
@@ -75,8 +79,8 @@ Upgrade campaigns and/or their budgets to be fully compatible with Kokai using b
 The following table lists the available scripts and user guides.
 
 | Script | Description | User Guide |
-| [UpdateCampaignBudgetWorkflow.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Budgets/UpdateCampaignBudgetWorkflow.py) | Check the campaign version (Kokai or Solimar) and update its budget accordingly, using REST and GraphQL. | [Budget Allocation](/v3/portal/api/doc/CampaignBudgets) |
-| [UpgradeBudgetSettingsToKokaiGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Budgets/UpgradeBudgetSettingsToKokaiGQL.py) | Upgrade a campaign's Solimar budget to Kokai using GraphQL. | [Budget Allocation](/v3/portal/api/doc/CampaignBudgets) |
+| [UpdateCampaignBudgetWorkflow.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Budgets/UpdateCampaignBudgetWorkflow.py) | Check the campaign version (Kokai or Solimar) and update its budget accordingly, using REST and GraphQL. | [Budget Allocation](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignBudgets) |
+| [UpgradeBudgetSettingsToKokaiGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Budgets/UpgradeBudgetSettingsToKokaiGQL.py) | Upgrade a campaign's Solimar budget to Kokai using GraphQL. | [Budget Allocation](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/CampaignBudgets) |
 | [UpgradeCampaignToKokaiGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/Campaign/Upgrading/UpgradeCampaignToKokaiGQL.py) | Upgrade a Solimar campaign to Kokai using GraphQL. | [Upgrade Solimar Campaigns to Kokai](/v3/portal/api/doc/KokaiCampaignUpgrade) |
 
 ## 
@@ -94,7 +98,7 @@ First-Party Data[](#fpd)
 The following table lists the available scripts for GraphQL and user guides, sorted alphabetically.
 
 | Script | Description | User Guide |
-| [GetAdvertiserFirstPartyDataGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/FirstPartyData/GetAdvertiserFirstPartyDataGQL.py) | Retrieve all first-party data elements for an advertiser. | [Audiences](/v3/portal/api/doc/Audience#data-elements-1p-lookup-tasks) |
+| [GetAdvertiserFirstPartyDataGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/FirstPartyData/GetAdvertiserFirstPartyDataGQL.py) | Retrieve all first-party data elements for an advertiser. | [Audiences](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Audience#data-elements-1p-lookup-tasks) |
 | [GetPartnerFirstPartyDataGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/FirstPartyData/GetPartnerFirstPartyDataGQL.py) | Retrieve first-party data from all advertisers under a partner. | N/A |
 
 ### 
@@ -104,4 +108,4 @@ Third-Party Data[](#tpd)
 The following table lists the available scripts for GraphQL and user guides, sorted alphabetically.
 
 | Script | Description | User Guide |
-| [GetAllThirdPartyDataForPartnerGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/ThirdPartyData/GetAllThirdPartyDataForPartnerGQL.py) | Retrieve all the third-party data elements of an audience. | [Audiences](/v3/portal/api/doc/Audience#lookup-3p-data-elements-lookup-tasks) |
+| [GetAllThirdPartyDataForPartnerGQL.py](https://github.com/thetradedesk/Platform/blob/main/Python/ThirdPartyData/GetAllThirdPartyDataForPartnerGQL.py) | Retrieve all the third-party data elements of an audience. | [Audiences](https://open.thetradedesk.com/advertiser/docsApp/GuidesAdvertiser/api/doc/Audience#lookup-3p-data-elements-lookup-tasks) |
